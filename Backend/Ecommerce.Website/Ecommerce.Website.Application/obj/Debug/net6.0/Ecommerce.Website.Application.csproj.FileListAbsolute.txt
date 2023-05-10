@@ -1,0 +1,17 @@
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\bin\Debug\net6.0\Ecommerce.Website.Application.deps.json
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\bin\Debug\net6.0\Ecommerce.Website.Application.dll
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\bin\Debug\net6.0\ref\Ecommerce.Website.Application.dll
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\bin\Debug\net6.0\Ecommerce.Website.Application.pdb
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\obj\Debug\net6.0\Ecommerce.Website.Application.csproj.AssemblyReference.cache
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\obj\Debug\net6.0\Ecommerce.Website.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\obj\Debug\net6.0\Ecommerce.Website.Application.AssemblyInfoInputs.cache
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\obj\Debug\net6.0\Ecommerce.Website.Application.AssemblyInfo.cs
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\obj\Debug\net6.0\Ecommerce.Website.Application.csproj.CoreCompileInputs.cache
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\obj\Debug\net6.0\Ecommerce.Website.Application.dll
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\obj\Debug\net6.0\ref\Ecommerce.Website.Application.dll
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\obj\Debug\net6.0\Ecommerce.Website.Application.pdb
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\bin\Debug\net6.0\Ecommerce.Website.Application.runtimeconfig.json
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\bin\Debug\net6.0\Ecommerce.Website.Database.dll
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\bin\Debug\net6.0\Ecommerce.Website.Database.pdb
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\obj\Debug\net6.0\Ecommerce.Website.Application.csproj.CopyComplete
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Application\obj\Debug\net6.0\Ecommerce.Website.Application.genruntimeconfig.cache

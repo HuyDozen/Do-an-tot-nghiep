@@ -1,0 +1,26 @@
+.title{
+    color: #000000;
+    font-family: notosans-bold;
+    font-weight: 700;
+    font-size: 28px;
+}
+.detail-user{
+    cursor: pointer;
+}
+.detail-user:hover{
+    color: #ffb416;
+}
+table {
+    border: 1px solid 	#DCDCDC;
+    width: 100%;
+    border-collapse: collapse;
+}
+table th{
+    text-align: center;
+    padding: 10px;
+    background-color: 	#DCDCDC;
+}
+table td{
+    text-align: center;
+    padding: 10px;
+}

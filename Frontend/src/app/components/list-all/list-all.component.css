@@ -1,0 +1,118 @@
+.container-listall{
+    padding: 10px 362px;
+}
+.new-title{
+    color: #000000;
+    font-family: notosans-bold;
+    font-size: 54px;
+    font-weight: 700;
+    padding: 50px;
+}
+/* BREADCRUMB */
+.link{
+    color: none;
+    text-decoration: none;
+  }
+  .active{
+    color: #ffb416;
+  }
+  .breadcrumb-tree{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+  }
+  /* /BREADCRUMB */
+  .page-heading{
+    text-align: center;
+    width: 100%;
+    
+}
+/* list */
+.new-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+}
+.img-container{
+    width: 280px;
+    height: 280px;
+}
+.card-container img{
+    height: auto;
+    width: auto;
+    padding-bottom: 20px;
+    width: 280px;
+    height: 280px;
+}
+.card-container{
+    width: 280px;
+}
+.title-product{
+    width: 100%;
+
+}
+.text-title{
+    font-family: notosans-bold;
+    font-size: 14px;
+    font-weight: 700;
+}
+.text-title:hover{
+    cursor: pointer;
+    color: #ffb416;
+}
+.cart-body{
+    padding: 10px 0px;
+}
+.option-cart{
+    text-align: center;
+}
+.btn-outline-danger{
+    border: 1px solid red;
+}
+.disabled{ 
+    cursor: not-allowed;
+    color: red;
+}
+.btnCart{
+    
+    color: #00BFFF;
+    border: 1px solid #00BFFF;
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: #ffffff;
+}
+.btnCart:hover{
+    background-color: #DCDCDC;
+}
+.btnOption:focus{
+    cursor: pointer;
+    background-color: #ffb416;
+    color: #ffffff;
+}
+
+/* /list */
+/* pagination */
+.button{
+   
+    border: 1px solid 	#D3D3D3;
+    color: 	#778899;
+    height: 36px;
+    width: 36px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.button:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #ffb416;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 20px 0;
+    column-gap: 8px;
+}
+/* /pagination */

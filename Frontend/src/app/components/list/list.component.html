@@ -1,0 +1,146 @@
+<div class="container-list">
+  <!-- BREADCRUMB -->
+  <div id="breadcrumb" class="section">
+    <!-- container -->
+    <div class="container">
+      <!-- row -->
+      <div class="row">
+        <div class="col">
+          <div class="breadcrumb-tree">
+            <div><a class="link" href="#">Trang chủ</a></div>
+            <div>/</div>
+            <div class="active">{{ products.nameCate }}</div>
+          </div>
+        </div>
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /BREADCRUMB -->
+
+  <div class="main">
+    <!-- SIDEBAR -->
+    <div id="sidebar" class="sidebar">
+      <div class="title-filter">Bộ lọc thông minh</div>
+      <div class="filter--selected">
+        <div class="selected--head">
+          <div class="" style="color: #ff00ff">
+            <fa-icon class="icon" [icon]="faTag"></fa-icon>
+            Đã chọn
+          </div>
+          <div class="text-del">Xoá</div>
+        </div>
+        <div class="selected--content">
+          <div *ngFor="let checkboxarrays of productArray" class="content--tag">
+            <fa-icon
+              style="cursor: pointer"
+              class="icon fa-2xl"
+              [icon]="faClose"
+            ></fa-icon>
+            <div class="text--selected">
+              {{ checkboxarrays.name }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="filter-container">
+        <div class="container--title">Khoảng giá</div>
+        <div class="container--option">
+          <div class="item" *ngFor="let checkboxarrays of checkboxArray">
+            <div class="toggle-rect-dark">
+              <input
+                type="{{ checkboxarrays.type }}"
+                id="{{ checkboxarrays.id }}"
+                value="{{ checkboxarrays.id }}"
+                (change)="onChange($event)"
+                name="check"
+              />
+              <label for="{{ checkboxarrays.id }}"></label>
+              <div>{{ checkboxarrays.name }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /SIDEBAR -->
+
+    <!-- CONTAINER -->
+    <div class="main-container">
+      <div class="container--header">
+        <div>
+          <img src="../../../assets/img/logo.png" alt="logo" />
+        </div>
+        <div class="header--title">
+          {{ products.nameCate }}
+        </div>
+      </div>
+      <div class="row2">
+        <div>
+          <button class="btnOption" (click)="sortByNameAsc()">Tên A-Z</button>
+          <button class="btnOption" (click)="sortByNameDesc()">Tên Z-A</button>
+          <button class="btnOption" (click)="sortByPriceAsc()">
+            Giá tăng dần
+          </button>
+          <button class="btnOption" (click)="sortByPriceDesc()">
+            Giá giảm dần
+          </button>
+        </div>
+        <div class="count-product">
+          Có tổng cộng {{ products.countProduct }} sản phẩm
+        </div>
+      </div>
+      <div class="new-list">
+        <div *ngFor="let p of products.inforProducts">
+          <div class="card-container">
+            <div class="img-container">
+              <img
+                src="{{p.image}}" alt="logo"
+                style="cursor: pointer"
+                (click)="selectProduct(p.id)"
+              />
+            </div>
+
+            <div class="title-product">
+              <p class="text-title">{{ p.title | titlecase }}</p>
+            </div>
+            <div class="cart-body">
+              <div class="text-black">
+                {{ p.description.substr(0, 24) }} ...
+              </div>
+              <div class=" " style="color: #eb0f00">
+                {{ p.price | currency : "VND" }}
+              </div>
+            </div>
+            <div class="option-cart">
+              <button
+                class="btnCart text-blue"
+                [class.disabled]="p.quantity < 1"
+                [class.btn-outline-danger]="p.quantity < 1"
+                (click)="AddToCart(p.id)"
+                [disabled]="p.quantity < 1"
+              >
+                {{ p.quantity < 1 ? "Hết hàng" : "Thêm vào giỏ" }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAGINATION -->
+      <div class="pagination">
+        <button class="button btnPrevious" (click)="onPrevious()">
+          <fa-icon class="ic" [icon]="faArrowAltCircleLeft"></fa-icon>
+        </button>
+        <button class="button">
+          {{ products.currentPage }}
+        </button>
+        <button class="button btnAfter" (click)="onAfter()">
+          <fa-icon class="ic" [icon]="faArrowAltCircleRight"></fa-icon>
+        </button>
+      </div>
+      <!-- /PAGINATION -->
+    </div>
+    <!-- /CONTAINER -->
+  </div>
+</div>

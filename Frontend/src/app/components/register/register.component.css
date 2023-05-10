@@ -1,0 +1,133 @@
+.register-main{
+    height: 100%;
+    padding: 20px 362px;
+}
+/* BREADCRUMB */
+.link{
+    color: none;
+    text-decoration: none;
+  }
+  .active{
+    color: #ffb416;
+  }
+  .section{
+    padding: 10px 362px;
+  }
+  .breadcrumb-tree{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+  }
+  /* /BREADCRUMB */
+  .container{
+    padding: 50px 50px;
+}
+  .register-title{ 
+    color: #000000;
+    font-family: notosans-bold;
+    font-size: 54px;
+    font-weight: 700;   
+}   
+.page-heading{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.register-body{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #dddddd;
+}
+.register-container{
+    width: 100%;
+    padding: 50px;
+}
+
+.login-body{
+    width: 100%;
+    background-color: #2f4f4f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btnLogin{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.btnLogin:hover{
+    color: #ffb416;
+}
+.warning{
+    font-family: notosans-italic;
+}
+.title{
+    font-family: notosans-bold;
+    font-size: 16px;
+}
+.input-age{
+    
+    width: 150px;
+}
+.input--age-content{
+    
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    display: flex;
+
+}
+.input-phonenumber{
+    width: 100%;
+}
+.rown{
+    display: flex;
+    column-gap: 20px;
+}
+input[type=text],input[type=file],input[type=number],input[type=password],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+.btn-outline-danger{
+    border: 1px solid red;
+}
+.disabled{ 
+    cursor: not-allowed;
+    color: red;
+}

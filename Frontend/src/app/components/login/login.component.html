@@ -1,0 +1,75 @@
+<!-- BREADCRUMB -->
+<div id="breadcrumb" class="section">
+  <!-- container -->
+  <div class="container1">
+    <!-- row -->
+    <div class="">
+      <div class="">
+        <div class="breadcrumb-tree">
+          <div><a class="link" href="#">Trang chủ</a></div>
+          <div>/</div>
+          <div class="active">Đăng nhập</div>
+        </div>
+      </div>
+    </div>
+    <!-- /row -->
+  </div>
+  <!-- /container -->
+</div>
+<!-- /BREADCRUMB -->
+<div class="container">
+  <div class="page-heading">
+    <div class="login-title">Đăng nhập</div>
+  </div>
+  <div class="login-body">
+    <div class="login-container">
+      <form class="form" novalidate #myform="ngForm">
+        <div class="login-content">
+          <label for="email">Tài khoản</label>
+  
+          <input
+            class="input-login"
+            type="email"
+            id="email"
+            [(ngModel)]="email"
+            name="email"
+            placeholder="username"
+            required
+          />
+          <label for="password">Mật khẩu</label>
+  
+          <input
+            class="input-login"
+            type="password"
+            id="password"
+            [(ngModel)]="password"
+            name="password"
+            placeholder="password"
+            required
+          />
+          <button
+            class="btnLogin"
+            (click)="login(myform)"
+          
+            [disabled]="myform.invalid && myform.touched"
+          >
+            Login
+          </button>
+          <div class="text-or">Hoặc đăng nhập bằng</div>
+          <div class="container-button--login">
+            <asl-google-signin-button
+              text="signin_with"
+              type="standard"
+            ></asl-google-signin-button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="register-body">
+      <div style="height: 50px;">
+        <button class="btn btnRegister" routerLink="/register">Đăng ký</button>
+      </div> 
+      
+    </div>
+  </div>
+</div>

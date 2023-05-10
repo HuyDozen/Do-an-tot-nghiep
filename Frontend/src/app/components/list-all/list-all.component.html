@@ -1,0 +1,76 @@
+<div class="container-listall">
+  <!-- BREADCRUMB -->
+  <div id="breadcrumb" class="section">
+    <!-- container -->
+    <div class="">
+      <!-- row -->
+      <div class="">
+        <div class="">
+          <div class="breadcrumb-tree">
+            <div><a class="link" href="#">Trang chủ</a></div>
+            <div>/</div>
+            <div class="active">Sản phẩm mới</div>
+          </div>
+        </div>
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /BREADCRUMB -->
+  <div class="page-heading">
+    <div class="new-title">SẢN PHẨM MỚI</div>
+  </div>
+
+  <!-- LIST -->
+  <div class="new-list">
+    <div *ngFor="let p of products.inforProducts">
+      <div class="card-container">
+        <div class="img-container">
+          <img
+            src="{{p.image}}" alt="logo"
+            style="cursor: pointer"
+            (click)="selectProduct(p.id)"
+          />
+        </div>
+
+        <div class="title-product">
+            <p class="text-title">{{ p.title.substr(0, 35) | titlecase }}...</p>
+        </div>
+        <div class="cart-body">
+          <div class="text-black">
+            {{ p.description.substr(0, 24) }} ...
+          </div>
+          <div class=" " style="color: #eb0f00">
+            {{ p.price | currency : "VND" }}
+          </div>
+        </div>
+        <div class="option-cart">
+          <button
+            class="btnCart text-blue"
+            [class.disabled]="p.quantity < 1"
+            [class.btn-outline-danger]="p.quantity < 1"
+            (click)="AddToCart(p.id)"
+            [disabled]="p.quantity < 1"
+          >
+            {{ p.quantity < 1 ? "Hết hàng" : "Thêm vào giỏ" }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- PAGINATION -->
+  <div class="pagination">
+    <button class="button btnPrevious" (click)="onPrevious()">
+      <fa-icon class="ic" [icon]="faArrowAltCircleLeft"></fa-icon>
+    </button>
+    <button class="button">
+      {{ products.currentPage }}
+    </button>
+    <button class="button btnAfter" (click)="onAfter()">
+      <fa-icon class="ic" [icon]="faArrowAltCircleRight"></fa-icon>
+    </button>
+  </div>
+  <!-- /PAGINATION -->
+  <!-- /LIST -->
+</div>

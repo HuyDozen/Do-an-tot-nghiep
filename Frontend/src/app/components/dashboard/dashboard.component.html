@@ -1,0 +1,27 @@
+<div class="main-dashboard">
+    <div class="dashboard-content">
+        <div class="navbarr">
+
+            <div class="title">
+                <fa-icon [icon]="faDashboard"></fa-icon>
+                DANH MỤC
+            </div>
+            <div class="options" [routerLinkActive]="'active'" [routerLink]="['addproduct']">
+                Thêm sản phẩm
+            </div>
+            <div class="options" [routerLinkActive]="'active'" [routerLink]="['detailproduct']">
+                Chi tiết sản phẩm
+            </div>
+            <div class="options" [routerLinkActive]="'active'" [routerLink]="['listorder']">
+                Danh sách đơn hàng
+            </div>
+            <div class="options" [routerLinkActive]="'active'" [routerLink]="['listuser']"> 
+                Danh sách người dùng
+            </div>
+            
+        </div>
+        
+        <router-outlet></router-outlet>
+    </div>
+    
+</div>
