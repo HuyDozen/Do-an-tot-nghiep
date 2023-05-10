@@ -1,0 +1,228 @@
+<div class="main-product">
+  <!-- BREADCRUMB -->
+  <div id="breadcrumb" class="section">
+    <!-- container -->
+    <div class="container">
+      <!-- row -->
+      <div class="row1">
+        <div class="">
+          <div class="breadcrumb-tree">
+            <div><a class="link" href="#">Trang chủ</a></div>
+            <div>/</div>
+            <div><a class="link" href="" (click)="selectCategory(product.categoryId)">{{product.categoryName}}</a></div> /
+            <div class="active">{{product.title}}</div>
+          </div>
+        </div>
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /BREADCRUMB -->
+  
+  <!-- SECTION -->
+  <div class="section">
+    <!-- container -->
+    <div class="container">
+      <!-- row -->
+      <div class="row1">
+        <!-- Product main img -->
+        <!-- Product main img -->
+      <div class="">
+        <div id="product-main-img">
+          <ng-template [ngIf]="thumbimages.length === 0">
+            <div class="product-preview">
+              <img [src]="product.image" alt="">
+            </div>
+          </ng-template>
+          <ng-template [ngIf]="thumbimages.length > 0">
+            <div class="product.image">
+              <img [src]="product.image" alt="">
+            </div>
+          </ng-template>
+        </div>
+      </div>
+      <!-- /Product main img -->
+  
+      <!-- Product thumb imgs -->
+      <div class="col-md-2  col-md-pull-5 ">
+        <ng-template [ngIf]="thumbimages.length > 0">
+          <div id="product-imgs">
+            <div *ngFor="let t of thumbimages" class="product-preview">
+              <img [src]="t" alt="">
+            </div>
+          </div>
+        </ng-template>
+         <ng-template [ngIf]="thumbimages.length === 0">
+           <div id="product-imgs">
+             <div class="product-preview">
+               <img [src]="product.image" alt="">
+             </div>
+           </div>
+         </ng-template>
+       </div>
+       <!-- /Product thumb imgs -->
+  
+        <!-- Product details -->
+        <div class="col-product">
+          <div class="product-details">
+            <h2 class="product-name">{{product.title}}</h2>
+            <div class="row1">
+              <div>
+                <i><fa-icon [icon]="faStar"></fa-icon></i>
+                <i><fa-icon [icon]="faStar"></fa-icon></i>
+                <i><fa-icon [icon]="faStar"></fa-icon></i>
+                <i><fa-icon [icon]="faStar"></fa-icon></i>
+                <i><fa-icon [icon]="faStar"></fa-icon></i>
+              </div>
+              <a class="review-link" >Có {{comments.count}} lượt đánh giá| <span style="cursor:pointer" (click)="openDialog()">Đánh giá</span></a>
+            </div>
+            <div class="row1">
+              <h3 class="product-price">{{product.price | currency:'USD'}}</h3>
+              <!-- <span class="product-available">In Stock</span> -->
+            </div>
+            <p>
+              {{product.description}}
+            </p>
+  
+            <div class="row1">
+                <div class="form">
+                    <div class="val-btn" id="decrease" (click)="Decrease()">
+                        <div class="dash-container">
+                            <div class="dash-content">
+                                <div class="dash"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <input class="iptNumberOfPr" type="number" [max]="product.quantity" [min]="product?.quantity >= 1 ? product?.quantity : 0"
+                    readonly #quantity value="{{product?.quantity >= 1 ? 1 : 0}}"
+                    />
+                    <div class="val-btn" id="increase" (click)="Increase()">
+                        <fa-icon style="cursor: pointer" class="icon" [icon]="faPlus"></fa-icon>
+                    </div>
+                </div>
+          
+            <button class="btnOrder" (click)="addToCart(product?.id)">Thêm vào giỏ</button>
+        </div>
+  
+            <div class="row1">
+              <div><a class="review-link" href="#">
+                <fa-icon style="cursor: pointer" class="icon" [icon]="faHeart"></fa-icon> 
+                Add to wishlist
+            </a></div>
+              <div><a class="review-link" href="#">
+                <fa-icon style="cursor: pointer" class="icon" [icon]="faCodeCompare"></fa-icon>  Add to compare</a></div>
+            </div>
+  
+            <div class="row1">
+              <div>Category:</div>
+              <div><a class="review-link" href="#">{{product.categoryName}}</a></div>
+             
+            </div>
+  
+            <div class="row1">
+              <div>Share:</div>
+              <div><a class="review-link" href="#">
+                <fa-icon style="cursor: pointer" class="icon" [icon]="faFacebook"></fa-icon>
+              </a></div>
+              <div><a class="review-link" href="#">
+                <fa-icon style="cursor: pointer" class="icon" [icon]="faGoogle"></fa-icon>
+              </a></div>
+              <div><a class="review-link" href="#">
+                <fa-icon style="cursor: pointer" class="icon" [icon]="faTwitter"></fa-icon>
+              </a></div>
+              <div><a class="review-link" href="#">
+                <fa-icon style="cursor: pointer" class="icon" [icon]="faDiscord"></fa-icon>
+              </a></div>
+            </div>
+  
+          </div>
+        </div>
+        <!-- /Product details -->
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+    <div class="review" id="review">
+      <div class="review-title">
+        Đánh giá
+      </div>
+      <div class="review-container">
+        <div class="review-header">
+          Đánh giá {{product.title}}
+        </div>
+        <div class="review-body">
+          <div class="review-content" *ngFor="let comment of comments.inforReviews"> 
+            <div>
+              {{comment.username}}
+            </div>
+            <div>
+              Điểm đánh giá: {{comment.ratingCount}}
+            </div>
+            <div>
+              Nội dung: {{comment.content}}
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /SECTION -->
+
+  <!-- POPUP -->
+  
+  <div id="pupComment" class="popup" *ngIf="showDialog">
+    <div class="mbox-form">
+      <div class="mbox-content">
+        <div class="close-icon" (click)="closeDialog()">
+          <fa-icon [style]="{width: '50px',cursor: 'pointer' }" class="icon" [icon]="faClose"></fa-icon>
+        </div>
+        <div class="" style="text-align:center">ĐÁNH GIÁ SẢN PHẨM</div>
+        <div class="mbox-title">{{product.title}}</div>
+        <form action="" class="formm" [formGroup]="reviewForm"
+        (ngSubmit)="reviewSubmited()">
+          <div >
+            Đánh giá về sản phẩm : 
+            <!-- <select name="points" id="points">
+              <option value="1"><fa-icon [icon]="faStar"></fa-icon></option>
+              <option value="2"><fa-icon [icon]="faStar"></fa-icon></option>
+              <option value="3"><fa-icon [icon]="faStar"></fa-icon></option>
+              <option value="4"><fa-icon [icon]="faStar"></fa-icon></option>
+              <option value="5"><fa-icon [icon]="faStar"></fa-icon></option>
+            </select> -->
+            <input type="number" id="vote" min="1" max="5" name="vote"
+            
+            formControlName="vote">
+          </div>
+          <div>
+            <input type="text" class="form-control" placeholder="Nhập tên người dùng" aria-label="Recipient's username" aria-describedby="basic-addon2"
+            name="name"
+          
+            formControlName="name"
+            >
+          </div>
+          <div>
+            <input type="text" class="form-control" placeholder="Nhập email" aria-label="Nhập email" aria-describedby="basic-addon2" name="email"
+            
+            formControlName="email" >
+          </div>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" name="content"
+          
+          formControlName="content"></textarea>
+          <div class="option">
+            <input
+          type="submit"
+          class="btn btn-primary"
+          value="Đánh giá"
+          
+        />
+          </div>
+        </form>
+        
+        
+    </div>
+  </div>
+  <!-- /POPUP -->
+  </div>

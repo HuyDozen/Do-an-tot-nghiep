@@ -1,0 +1,87 @@
+.container-profile {
+  display: flex;
+  padding: 50px 362px;
+  
+
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.rown-1 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+  height: 200px;
+}
+
+.rown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.column-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-2 {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-tabs {
+  display: flex;
+  column-gap: 10px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.profile-work {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.profile-head {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.tab-pane {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.profile-img {
+  height: 200px;
+  width: 200px;
+}
+
+.btn {
+  border: 1px solid #D3D3D3;
+  color: #778899;
+  padding: 6px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #808080;
+  color: red;
+}

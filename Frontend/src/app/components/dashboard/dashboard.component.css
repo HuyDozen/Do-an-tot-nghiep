@@ -1,0 +1,32 @@
+.main-dashboard{
+    /* height: 100%; */
+    padding: 20px 362px;
+}
+.active{
+    color:   #FF8C00;
+}
+.dashboard-content{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.navbarr{
+    min-width: 250px;
+    height: 100vh;
+    padding-right: 20px;
+}
+.title{
+    column-gap: 5px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-family: notosans-bold;
+    font-weight: 700;
+    font-size: 28px;
+}
+.options{
+    cursor: pointer;
+}
+.options:hover{
+    color: #ffb416;
+}

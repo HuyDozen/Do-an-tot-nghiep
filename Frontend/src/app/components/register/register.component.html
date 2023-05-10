@@ -1,0 +1,255 @@
+<!-- BREADCRUMB -->
+<div id="breadcrumb" class="section">
+  <!-- container -->
+  <div class="container1">
+    <!-- row -->
+    <div class="">
+      <div class="">
+        <div class="breadcrumb-tree">
+          <div><a class="link" href="#">Trang chủ</a></div>
+          <div>/</div>
+          <div class="active">Đăng ký</div>
+        </div>
+      </div>
+    </div>
+    <!-- /row -->
+  </div>
+  <!-- /container -->
+</div>
+<!-- /BREADCRUMB -->
+<div class="container">
+  <div class="page-heading">
+    <div class="register-title">Đăng ký</div>
+  </div>
+  <div class="register-body">
+    <div class="register-container">
+      <form
+        action=""
+        [formGroup]="registerForm"
+        (ngSubmit)="registerSubmited()"
+      >
+        <div>
+          <label class="title" for="fname"
+            ><span class="text-danger">*</span>Tên người dùng</label
+          >
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Tên người dùng..."
+            ngModel
+            formControlName="fname"
+          />
+          <div
+            class="form-text text-danger"
+            *ngIf="FullName.errors?.['required'] && (FullName.touched || FullName.dirty) "
+          >
+            Tên người bắt buộc phải có
+          </div>
+          <div
+            class="form-text text-danger"
+            *ngIf="FullName.errors?.['pattern'] && (FullName.touched || FullName.dirty)"
+          >
+            Tên người bắt buộc phải bắt đầu là chữ cái
+          </div>
+        </div>
+
+        <div>
+            <label class="title" for="username"
+              ><span class="text-danger">*</span>Tên đăng nhập</label
+            >
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Tên đăng nhập..."
+              ngModel
+              formControlName="username"
+            />
+            <div
+              class="form-text text-danger"
+              *ngIf="Username.errors?.['required'] && (Username.touched || Username.dirty) "
+            >
+              Tên đăng nhập bắt buộc phải có
+            </div>
+            <div
+              class="form-text text-danger"
+              *ngIf="Username.errors?.['pattern'] && (Username.touched || Username.dirty) "
+            >
+              Tên đăng nhập bắt buộc phải có ít nhất 6 ký tự và bắt đầu bằng chữ
+            </div>
+          </div>
+
+
+        <div>
+          <label class="title" for="email"
+            ><span class="text-danger">*</span>Email</label
+          >
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email..."
+            ngModel
+            formControlName="email"
+          />
+          <div
+            class="form-text text-danger"
+            *ngIf="Email.errors?.['required'] && (Email.touched || Email.dirty) "
+          >
+            Email bắt buộc phải có
+          </div>
+          <div class="form-text text-danger" *ngIf="Email.errors?.['email']  ">
+            Email không đúng định dạng (vd: abc@xyz.com)
+          </div>
+        </div>
+
+        <div class="rown">
+          <div class="input-age">
+            <label class="title" for="age"
+              ><span class="text-danger">*</span>Tuổi</label
+            ><br />
+            <input
+              class="iptAge"
+              type="number"
+              id="age"
+              ngModel
+              name="age"
+              placeholder="Tuổi..."
+              formControlName="age"
+            />
+          </div>
+          <div
+                  class="form-text text-danger"
+                  *ngIf="Age.errors?.['required'] && (Age.touched || Age.dirty) "
+                >
+                  Tuổi không được để trống
+                </div>
+          <div class="input-gender">
+            <div class="title"><span class="text-danger">*</span>Giới tính</div>
+            <div class="input--age-content">
+              <div class="form-check form-check-inline">
+                <input
+                  type="radio"
+                  class="form-check-input"
+                  name="gender"
+                  value="0"
+                  id="male"
+                  formControlName="gender"
+                />
+                <label class="form-check-label" for="male">Nam</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  type="radio"
+                  class="form-check-input"
+                  name="gender"
+                  value="1"
+                  id="female"
+                  formControlName="gender"
+                />
+                <div
+                  class="form-text text-danger"
+                  *ngIf="Gender.errors?.['required'] && (Gender.touched || Gender.dirty) "
+                >
+                  Giới tính không được để trống
+                </div>
+                <label class="form-check-label" for="female">Nữ</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input-phonenumber">
+          <label class="title" for="phoneNumber"
+            ><span class="text-danger">*</span>Số điện thoại</label
+          ><br />
+          <input
+            type="text"
+            id="phoneNumber"
+            ngModel
+            name="phoneNumber"
+            placeholder="Số điện thoại..."
+            formControlName="phoneNumber"
+          />
+          <div
+            class="form-text text-danger"
+            *ngIf="PhoneNumber.errors?.['required'] && (PhoneNumber.touched || PhoneNumber.dirty) "
+          >
+            Số điện thoại không được để trống
+          </div>
+          <div
+            class="form-text text-danger"
+            *ngIf="PhoneNumber.errors?.['pattern']"
+          >
+            Số điện thoại phải bao gồm các số 0-9 và có ít nhất 10 số
+          </div>
+        </div>
+        <div class="rown">
+          <div>
+            <label class="title" for="password"
+              ><span class="text-danger">*</span>Mật khẩu</label
+            ><br />
+            <input
+              type="password"
+              id="password"
+              ngModel
+              name="password"
+              placeholder="Mật khẩu..."
+              formControlName="password"
+            />
+            <div
+              class="form-text text-danger"
+              *ngIf="Password.errors?.['required'] && (Password.touched || Password.dirty) "
+            >
+              Mật khẩu không được để trống
+            </div>
+            <div
+              class="form-text text-danger"
+              *ngIf="Password.errors?.['pattern'] "
+            >
+              Mật khẩu phải có ít nhất 8 ký tự
+            </div>
+          </div>
+          <div>
+            <label class="title" for="repeatPassword"
+              ><span class="text-danger">*</span>Xác nhận lại mật khẩu</label
+            ><br />
+            <input
+              type="password"
+              id="repeatPassword"
+              ngModel
+              name="repeatPassword"
+              placeholder="Mật khẩu..."
+              formControlName="repeatPassword"
+            />
+            <div
+              class="form-text text-danger"
+              [ngStyle]="{ display: repeatPass }"
+            >
+              Mật khẩu không trùng khớp
+            </div>
+          </div>
+        </div>
+
+        <input
+          type="submit"
+          value="Đăng ký"
+          [class.disabled]="registerForm.invalid"
+          [class.btn-outline-danger]="registerForm.invalid"
+          [disabled]="registerForm.invalid"
+        />
+      </form>
+      <span class="warning text-danger"
+        >* Lưu ý: Bạn phải nhập đúng định dạng theo yêu cầu trên mới có thể đăng
+        ký được tài khoản.</span
+      >
+    </div>
+    <div class="login-body">
+      <div style="height: 50px">
+        <button class="btn btnLogin" routerLink="/login">Đăng nhập</button>
+      </div>
+    </div>
+
+    <div></div>
+  </div>
+</div>

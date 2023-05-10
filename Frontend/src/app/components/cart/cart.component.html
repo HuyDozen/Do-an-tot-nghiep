@@ -1,0 +1,107 @@
+<!-- BREADCRUMB -->
+<div id="breadcrumb" class="section">
+  <!-- container -->
+  <div class="container1">
+    <!-- row -->
+    <div class="">
+      <div class="">
+        <div class="breadcrumb-tree">
+          <div><a class="link" href="#">Trang chủ</a></div>
+          <div>/</div>
+          <div class="active">Thủ tục</div>
+        </div>
+      </div>
+    </div>
+    <!-- /row -->
+  </div>
+  <!-- /container -->
+</div>
+<!-- /BREADCRUMB -->
+<div class="section">
+  <!-- Khi gio hang trong -->
+  <div class="page-heading">
+    <div class="cart-title">Giỏ hàng</div>
+  </div>
+  <div class="page" *ngIf="cartData.data[0].numInCart == 0">
+    <div class="text-empty-cart">GIỎ HÀNG CỦA BẠN HIỆN ĐANG RỖNG</div>
+    <button class="btnReturn" routerLink="/">QUAY LẠI SHOP</button>
+    <div class="cart-"></div>
+  </div>
+
+  <!-- Khi gio hang co hang -->
+  <ng-container *ngIf="cartData.data[0].numInCart != 0">
+    <div class="rown">
+      <table class="table">
+        <thead class="table-dark">
+          <tr class="text-center">
+            <th class="text-title-table text-left">Hình ảnh</th>
+            <th class="text-title-table text-left">Tên</th>
+            <th class="text-title-table text-right">Giá</th>
+            <th class="text-title-table">Số lượng</th>
+            <th class="text-title-table text-right">Tổng tiền hàng</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let c of cartData.data; let i = index">
+            <td class="">
+              <img
+                src="{{ c.product.image }}"
+                height="80"
+                alt="{{ c.product.title }}"
+                class="order-1"
+              />
+            </td>
+            <td class="text-left">{{ c.product.title }}</td>
+            <td class="text-right">{{ c.product.price | currency : "VND" }}</td>
+            <td>
+              <form class="form" action="">
+                <div
+                  class="val-btn"
+                  id="decrease"
+                  (click)="ChangeQuantity(i, false)"
+                >
+                  <div class="dash-container">
+                    <div class="dash-content">
+                      <div class="dash"></div>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  class="iptNumberOfPr"
+                  type="number"
+                  id="number"
+                  [value]="c.numInCart"
+                  readonly
+                  [max]="c.product.quantity"
+                />
+                <div class="val-btn" id="increase">
+                  <fa-icon
+                    style="cursor: pointer"
+                    (click)="ChangeQuantity(i, true)"
+                    class="icon"
+                    [icon]="faPlus"
+                  ></fa-icon>
+                </div>
+              </form>
+            </td>
+            <td class="text-right">
+              <p>{{ cartService.CalculateSubTotal(i) | currency : "VND" }}</p>
+            </td>
+          </tr>
+          <tr class="">
+            <td style="border: none"></td>
+            <td style="border: none"></td>
+            <td></td>
+            <td>Tổng cộng:</td>
+            <td>{{ cartTotal | currency : "VND" }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="column">
+      <button routerLink="/checkout" class="btnCheckout">THỦ TỤC</button>
+      <button class="btnReturn" routerLink="/">QUAY LẠI SHOP</button>
+    </div>
+  </ng-container>
+</div>

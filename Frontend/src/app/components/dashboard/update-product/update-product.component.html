@@ -1,0 +1,84 @@
+<div class="update-main">
+  <div class="title">THÊM MỚI SẢN PHẨM</div>
+  <div class="content">
+    <form
+      action=""
+      #productForm="ngForm"
+      (ngSubmit)="updateProduct(productForm.value)"
+    >
+      <div class="form">
+        <div>
+          <label class="" for="title">Tên sản phẩm</label>
+          <input
+            type="text"
+            id="fname"
+            name="title"
+            placeholder="Tên sản phẩm..."
+            ngModel
+          />
+
+          <label for="categoryId">Thể loại</label>
+          <select id="categoryId" name="categoryId" ngModel>
+            <option value="">--Please choose an option--</option>
+            <option *ngFor="let cate of category" value="{{ cate.id }}">
+              {{ cate.title }}
+            </option>
+          </select>
+
+          <label for="quanity">Số lượng</label><br />
+          <input
+            type="number"
+            id="quanity"
+            ngModel
+            name="quanity"
+            placeholder="Số lượng..."
+          />
+          <br />
+
+          <label for="price">Giá thành</label>
+          <input
+            type="number"
+            id="price"
+            name="price"
+            placeholder="Giá thành..."
+            ngModel
+          />
+
+          <label for="description">Mô tả</label>
+          <textarea name="description" ngModel></textarea>
+
+          <label for="file">Hình ảnh show phụ</label>
+          <input
+            type="file"
+            accept="image/*"
+            name="images"
+            ngModel
+            id="images"
+            multiple
+            (change)="onSelectFiles($event)"
+          />
+          <img
+            *ngFor="let urlFiles of urls"
+            [attr.src]="urlFiles"
+            height="280px"
+          /><br />
+        </div>
+
+        <div>
+          <label for="file">Hình ảnh show chính</label>
+          <input
+            type="file"
+            accept="image/*"
+            name="image"
+            ngModel
+            id="image"
+            (change)="onSelectFile($event)"
+          />
+          <img [attr.src]="url || product.image" height="280px" /><br />
+        </div>
+      </div>
+      
+      <input type="submit" value="Chỉnh sửa" />
+    </form>
+  </div>
+</div>

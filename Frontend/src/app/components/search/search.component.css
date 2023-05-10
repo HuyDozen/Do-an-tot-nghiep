@@ -1,0 +1,136 @@
+.section{
+    padding: 10px 362px;
+}
+.breadcrumb-tree{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.link{
+    color: none;
+    text-decoration: none;
+}
+.active{
+    color: #ffb416;
+}
+.text-result{
+    font-family: notosans-italic;
+    color: #ffb416;
+    font-size: 30px;
+    font-weight: 400;
+}
+.text-header{
+    font-family: notosans-bold;
+    font-weight: 700;
+    font-size: 24px;
+}
+.line{
+    width: 100%;
+    border-bottom: 2px solid #000000;
+}
+.heading-result{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-result-count{
+    font-family: notosans-italic;
+    color: #FF6347;
+}
+/* BUTTON SEARCH */
+.btnSearch {
+    background-color: #000000;
+    border-width: 0px;
+    border: none;
+    font-size: 14px;
+    color: #F8F8FF;
+    padding: 12px 18px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.btnSearch::placeholder {
+    font-family: notosans-italic;
+    font-size: 18px;
+    color: #C0C0C0;
+}
+
+.btnSearch:focus {
+    outline: none;
+}
+/* /BUTTON SEARCH */
+
+/* list */
+.new-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+.cardd img{
+    height: auto;
+    width: auto;
+    padding-bottom: 20px;
+    width: 280px;
+    height: 280px;
+}
+.cardd{
+    width: 280px;
+}
+.title-product{
+    width: 100%;
+
+}
+.text-title{
+    font-family: notosans-bold;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-weight: 700;
+}
+.text-title:hover{
+    cursor: pointer;
+    color: #ffb416;
+}
+.cart-body{
+    padding: 10px 0px;
+}
+.option-cart{
+    text-align: center;
+}
+.btnCart{
+    
+    color: #00BFFF;
+    border: 1px solid #00BFFF;
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: #ffffff;
+}
+.btnCart:hover{
+    background-color: #DCDCDC;
+}
+
+/* /list */
+
+/* pagination */
+.button{
+   
+    border: 1px solid 	#D3D3D3;
+    color: 	#778899;
+    height: 36px;
+    width: 36px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.button:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #ffb416;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    column-gap: 8px;
+}
+/* /pagination */

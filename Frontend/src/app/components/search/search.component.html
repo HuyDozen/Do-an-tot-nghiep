@@ -1,0 +1,102 @@
+<div class="container-search">
+    <!-- BREADCRUMB -->
+    <div id="breadcrumb" class="section">
+      <!-- container -->
+      <div class="container-bread">
+        <!-- row -->
+        <div class="rown">
+          <div class="column">
+            <div class="breadcrumb-tree">
+              <div><a class="link" href="#">Trang chủ</a></div>
+              <div>/</div>
+              <!-- <div class="active">{{ products.nameCate }}</div> -->
+              <div class="active">Tìm kiếm</div>
+            </div>
+          </div>
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /BREADCRUMB -->
+
+    <div class="section">
+      <div class="text-header">
+        TRANG TÌM KIẾM
+      </div>
+      <br>
+      <div class="line">
+      </div>
+    </div>
+
+    <div class="section">
+      <input class="btnSearch" id="btnSeach" type="text" placeholder="Nhập tên sản phẩm cần tìm"/>
+    </div>
+
+    <div class="section" *ngIf="products.nameSearch !== null">
+      <div class="heading-result">
+        <div>
+          Kết quả tìm kiếm cho <span class="text-result">{{products.nameSearch}}</span>
+        </div>
+        <div class="text-result-count">
+          Có {{products.count}} kết quả tìm kiếm
+        </div>
+      </div>
+      <div>
+        Nếu không có kết quả nào bạn vui lòng tìm kiếm bằng <a href="https://www.google.com/" style="color:#eb0f00" target="_blank">Google</a>
+      </div>
+    </div>
+
+    <!-- LIST -->
+    <div class="section">
+      <div class="new-list">
+        <div  *ngFor="let p of products.inforProducts">
+          <div class="cardd">
+            <div class="img-container">
+            <img src="{{p.image}}" alt="{{p.image}}"
+            style="cursor: pointer; " (click)="selectProduct(p.id)">
+            </div>
+            
+            <div class="title-product">
+              <p class="text-title">{{p.title | titlecase}}</p>
+            </div>
+            <div class="cart-body">
+              <div class="text-black">
+                {{p.description.substr(0, 24)}} ...
+              </div>
+              <div class=" " style="color: #eb0f00">
+                {{p.price | currency: 'VND'}}
+              </div>
+            </div>
+            <div class="option-cart">
+              <button class="btnCart text-blue" 
+              [disabled] = "p.quantity < 1"
+              [class.btn-outline-danger] = "p.quantity< 1"
+                (click)="AddToCart(p.id)"
+              >                    
+                {{p.quantity < 1 ? "NO STOCK" : "Add to cart"}}
+              </button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    <!-- /LIST -->
+
+    <!-- PAGINATION -->
+    <div class="pagination" *ngIf="products.count !== 0">
+      <button class="button btnPrevious" (click)="onPrevious()">
+        <fa-icon class="ic" [icon]="faArrowAltCircleLeft"></fa-icon>
+      </button>
+      <button class="button">
+        {{products.currentPage}}
+      </button>
+      <button class="button btnAfter" (click)="onAfter()">
+        <fa-icon class="ic" [icon]="faArrowAltCircleRight"></fa-icon>
+      </button>
+    </div>
+    <!-- /PAGINATION -->
+
+    </div>
+    
+</div>

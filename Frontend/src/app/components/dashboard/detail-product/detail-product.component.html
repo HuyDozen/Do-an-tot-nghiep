@@ -1,0 +1,125 @@
+<div class="detail-main">
+  <div class="title">
+    <fa-icon [icon]="faList"></fa-icon>
+    Danh sách sản phẩm
+  </div>
+  <!-- Danh sach -->
+  <div class="option">
+    <select class="selt" id="categoryId" name="categoryId" ngModel>
+      <option value="">--Please choose an option--</option>
+      <option *ngFor="let cate of categories" value="{{ cate.id }}">
+        {{ cate.title }}
+      </option>
+    </select>
+    <div>
+      <input class="ipt" type="text" placeholder="Tìm kiếm ..." />
+    </div>
+    <button class="btn btnSearch">
+      <fa-icon [icon]="faSearch" style="cursor: pointer"></fa-icon>
+      Tìm kiếm
+    </button>
+  </div>
+  <div class="new-list">
+    <div *ngFor="let p of products.inforProducts">
+      <div class="cardd">
+        <div class="img-container">
+          <img src="{{ p.image }} " style="cursor: pointer" />
+        </div>
+
+        <div class="title-product">
+          <p class="text-title">{{ p.title.substr(0, 24) | titlecase }}...</p>
+        </div>
+        <div class="cart-body">
+          <div class="text-black">{{ p.description.substr(0, 17) }} ...</div>
+          <div class=" " style="color: #eb0f00">
+            {{ p.price | currency : "VND" }}
+          </div>
+        </div>
+        <div class="option-cart">
+          <button class="btn btnUpdate" (click)="updateProduct(p.id)">
+            <fa-icon
+              style="cursor: pointer"
+              class="icon"
+              [icon]="faEdit"
+            ></fa-icon>
+            Sửa
+          </button>
+          <button class="btn btnDelete" (click)="openDialog(p.id)">
+            <fa-icon
+              style="cursor: pointer"
+              class="icon"
+              [icon]="faTrash"
+            ></fa-icon>
+            Xoá
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- LOADING -->
+  <div id="loading" class="loading" *ngIf="showLoading">
+    <div class="mbox-form">
+      <div class="loader"></div>
+    </div>
+  </div>
+  <!-- /LOADING -->
+  </div>
+  <!-- /Danh sach -->
+
+  <!-- PAGINATION -->
+  <div class="pagination">
+    <button class="button btnPrevious" (click)="onPrevious()">
+      <fa-icon class="ic" [icon]="faArrowAltCircleLeft"></fa-icon>
+    </button>
+    <button class="button">
+      {{ products.currentPage }}
+    </button>
+    <button class="button btnAfter" (click)="onAfter()">
+      <fa-icon class="ic" [icon]="faArrowAltCircleRight"></fa-icon>
+    </button>
+  </div>
+  <!-- /PAGINATION -->
+
+  <!-- POPUP -->
+  <!-- DIALOG XAC THUC-->
+  <div id="dlgWarning" class="dialog" *ngIf="showDialog">
+    <div class="mbox-form">
+      <div class="mbox-content">
+        <div class="mbox-head">
+          <div class="mbox-title">Xoá sản phẩm</div>
+          <fa-icon
+            class="ic"
+            style="cursor: pointer"
+            [icon]="faClose"
+            (click)="closeDialog()"
+          ></fa-icon>
+        </div>
+        <div class="mbox-body">
+          <div>
+            <img
+              class="image"
+              src="{{ dataOfProductSelected.image }}"
+              alt="{{ dataOfProductSelected.title }}"
+            />
+          </div>
+          <div class="body--content">
+            <div class="tille-del">Bạn có chắc muốn xoá?</div>
+            <div class="name-pro">{{ dataOfProductSelected.title }}</div>
+          </div>
+        </div>
+        <div class="mbox-option">
+          <button
+            class="btn btnDelete"
+            (click)="deleteProduct(dataOfProductSelected.id)"
+          >
+            Đồng ý
+          </button>
+          <button class="btn btnClose" (click)="closeDialog()">Đóng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /POPUP -->
+
+  
+  
+</div>

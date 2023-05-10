@@ -1,0 +1,26 @@
+<div class="add-main">
+    <div class="title">
+        DANH SÁCH NGƯỜI DÙNG
+    </div> 
+    <div class="content">
+        <table>
+            <tr>
+              <th>Id</th>
+              <th>Email</th>
+              <th>UserName</th>
+              <th>Role</th>
+              <th></th>
+            </tr>
+            <tr *ngFor="let user of users">
+              <td>{{user.id}}</td>
+              <td>{{user.email}}</td>
+              <td>{{user.username}}</td>
+              <td>{{user.role}}</td>
+              <td class="detail-user">Chi tiết</td>
+            </tr>
+            
+          </table>
+          
+    </div>
+
+</div>

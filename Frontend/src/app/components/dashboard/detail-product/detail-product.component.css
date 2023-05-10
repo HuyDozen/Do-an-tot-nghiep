@@ -1,0 +1,249 @@
+.detail-main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: #000000;
+    font-family: notosans-bold;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+/* Option */
+.option{
+    min-height: 45px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.selt{
+    padding: 0 10px;
+    border: 1px solid #D3D3D3;
+}
+select:focus{
+    background-color: ivory;
+}
+.ipt{
+    border-radius: 6px;
+    height: 100%;
+    padding: 0 10px;
+    border: 1px solid #D3D3D3;
+}
+
+.btnSearch{
+    color: #ffffff;
+    background-color:#2f4f4f;
+}
+/* /Option */
+
+/* Danh sach */
+.new-list{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+.img-container{
+    width: 200px;
+    height: 200px;
+}
+.cardd img{
+
+    padding-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
+.cardd{
+    width: 200px;
+    height: auto;
+}
+.title-product{
+    width: 100%;
+
+}
+.text-title{
+    font-family: notosans-bold;
+    font-size: 14px;
+    font-weight: 700;
+}
+.text-title:hover{
+    cursor: pointer;
+    color: #ffb416;
+}
+.cart-body{
+    padding: 10px 0px;
+}
+.text-black{
+    color:#000000;
+}
+.option-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+.btnCart{
+    color: #00BFFF;
+    border: 1px solid #00BFFF;
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: #ffffff;
+}
+.btnCart:hover{
+    background-color: #DCDCDC;
+}
+/* /Danh sach */
+
+/* Nut */
+.btnUpdate{
+    background-color: 	#FFD700;
+    color: #ffffff;
+}
+.btnUpdate:hover{
+    color: 	#9932CC;
+}
+.btnDelete{
+    background-color: #000000;
+    color: #ffffff;
+}
+.btnDelete:hover{
+    color: #CD5C5C;
+}
+/* /Nut */
+
+/* pagination */
+.button{
+   
+    border: 1px solid 	#D3D3D3;
+    color: 	#778899;
+    height: 36px;
+    width: 36px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.button:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #ffb416;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    column-gap: 8px;
+}
+/* /pagination */
+
+/* POPUP */
+.dialog{
+    position:fixed;
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh; 
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index:10000;
+}
+.mbox-form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mbox-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 50px 50px;
+}
+.mbox-head{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.mbox-body{
+    display: flex;
+    padding: 20px 0;
+    column-gap: 200px;
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+}
+.tille-del{
+    text-align: center;
+    font-family: notosans-italic;
+    color: #A9A9A9;
+}
+.name-pro{
+    font-family: notosans-bold;
+    text-align: center;
+}
+.body--content{
+    width: 400px;
+}
+.image{
+    height: 150px;
+    width: 150px;
+}
+.mbox-title{
+    font-family: notosans-bold;
+    height: 33px;
+    font-size: 24px;
+    font-weight: 700px;
+    color: #111111;
+}
+.mbox-option{
+    display: flex;
+    column-gap: 5px;
+    justify-content: end;
+}
+.btnDelete{
+    background-color: #FF0000;
+}
+.btnClose{
+    background-color: #DCDCDC;
+}
+
+/* /POPUP */
+/* LOADING */
+.loading{
+    position:absolute;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%; 
+   
+    top: 40px;
+    left: 0;
+    z-index:9999;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #FFD700;
+    width: 150px;
+    height: 150px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+/* /LOADING */

@@ -1,0 +1,64 @@
+<footer class="footer" id="footer">
+  <div class="footer-container">
+    <div class="ft-aboutus">
+      <div class="text-footer--title">BẢN THÂN</div>
+      <div class="text-intro">Tạ Quang Huy</div>
+      <div class="text-intro">0336951408</div>
+      <div class="text-intro">Đang là sinh viên năm cuối</div>
+    </div>
+    <div class="ft-categories">
+      <div class="text-footer--title">DANH MỤC SẢN PHẨM</div>
+      <div *ngFor="let c of categories" class="name-category">
+        <div (click)="selectCategory(c.id)">
+          {{ c.title }}
+        </div>
+      </div>
+    </div>
+    <!-- <div class="ft-information">
+            <div class="text-footer--title">THÔNG TIN</div>
+            <div class="text-intro">1</div>
+            <div class="text-intro">1</div>
+            <div class="text-intro">1</div>
+        </div> -->
+    <div class="ft-service">
+      <div class="text-footer--title">LIÊN LẠC VỚI TÔI</div>
+      <div class="service-contact">
+        <div>
+          <a href="https://www.facebook.com/taquang.huy.562/" target="_blank">
+            <fa-icon
+              style="cursor: pointer"
+              class="icon"
+              [icon]="faFacebook"
+            ></fa-icon>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/taj.qh_2801/" target="_blank">
+            <fa-icon
+              style="cursor: pointer"
+              class="icon"
+              [icon]="faInstagram"
+            ></fa-icon>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://docs.google.com/document/d/1xzgtTsYH5U4nveV2fHwzVwiw15dhuwjc4O0Mhu0i8p8/edit#heading=h.1ksv4uv"
+            target="_blank"
+          >
+            <fa-icon
+              style="cursor: pointer"
+              class="icon"
+              [icon]="faGoodreads"
+            ></fa-icon>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <fa-icon [icon]="faCopyright"></fa-icon>
+    Được lập trình bởi 
+    <a href="https://www.facebook.com/taquang.huy.562/" target="blank">Tạ Quang Huy</a>
+  </div>
+</footer>

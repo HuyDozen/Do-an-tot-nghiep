@@ -1,0 +1,100 @@
+<div class="home" id="home">
+  <div class="home-container">
+    <!-- <div class="slider">
+      <section>
+        <img
+          src="https://images5.alphacoders.com/958/thumb-1920-958580.jpg"
+          alt="Rong"
+        />
+      </section>
+      <section>
+        <img
+          src="https://images5.alphacoders.com/958/thumb-1920-958580.jpg"
+          alt="Rong"
+        />
+      </section>
+      <section>
+        <h1>Section Three</h1>
+      </section>
+      <section>
+        <h1>Section Four</h1>
+      </section>
+      <section>
+        <h1>Section Five</h1>
+      </section>
+    </div> -->
+    <div class="row-container">
+      <div class="home-category">
+        <div *ngFor="let c of categories" class="name-category">
+          <div (click)="selectCategory(c.id)">
+            {{ c.title }}
+          </div>
+        </div>
+      </div>
+      <div class="home-header">
+        <div class="head--title">SẢN PHẨM MỚI</div>
+        <!-- <div class="text-black head--category">Một số thuộc tính</div> -->
+      </div>
+      <div class="new-list">
+        <div *ngFor="let p of products.inforProducts">
+          <div class="cardd">
+            <div class="img-container">    
+              <img
+                src="{{p.image}} "
+                style="cursor: pointer"
+                (click)="selectProduct(p.id)"
+              />
+            </div>
+
+            <div class="title-product">
+              <p class="text-title">{{ p.title.substr(0, 35) | titlecase }}...</p>
+            </div>
+            <div class="cart-body">
+              <div class="text-black">
+                {{p.description.substr(0, 24)}} ...
+              </div>
+              <div class=" " style="color: #eb0f00">
+                {{ p.price | currency : "VND" }}
+              </div>
+            </div>
+            <div class="option-cart">
+              <button
+                class="btnCart text-blue"
+                [class.disabled]="p.quanity < 1"
+                [class.btn-outline-danger]="p.quanity < 1"
+                (click)="AddToCart(p.id)"
+                [disabled]="p.quanity < 1"
+              >
+                {{ p.quanity < 1 ? "Hết hàng" : "Thêm vào giỏ" }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-more">
+        <div class="text-more" [routerLink]="['products']">Xem thêm</div> 
+      </div>
+      <div class=" section_blog">
+        <div class="swap">
+          <h2 class="title-block upscape">
+            <a href="" title="Kiến thức &amp; Phần mềm"
+              >Kiến thức &amp; Phần mềm</a
+            >
+          </h2>
+
+          <div class="row blogs_mobile_base">
+            <div class="col-12">
+              <div
+                class="alert alert-warning alert-dismissible margin-top-15 section"
+                role="alert"
+              >
+                Tin đang được cập nhật.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="global-overlay"></div>
+  </div>
+</div>
