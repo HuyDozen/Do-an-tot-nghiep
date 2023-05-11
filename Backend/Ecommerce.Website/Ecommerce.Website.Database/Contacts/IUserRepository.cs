@@ -1,13 +1,16 @@
 ﻿using Ecommerce.Website.Database.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Ecommerce.Website.Database.Models.Authetication;
+using Ecommerce.Website.Database.Models.Authetication.Login;
+using Ecommerce.Website.Database.Models.ResponseModels;
 
 namespace Ecommerce.Website.Database.Contacts
 {
     public interface IUserRepository : IBaseRepository<User>
     {
+        InforLogin Validate(Login model);
+        TokenModel RenewToken(TokenModel model);
+        UserRegister SignUpUser(User user);
+
+
     }
 }

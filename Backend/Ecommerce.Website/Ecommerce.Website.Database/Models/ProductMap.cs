@@ -23,15 +23,15 @@ namespace Ecommerce.Website.Database.Models
 
             entityBuilder.Property(t => t.Image)
                  .HasColumnName("image")
-                 .HasColumnType("varchar(255)")
+                 .HasColumnType("text")
                 .IsRequired();
             entityBuilder.Property(t => t.Images)
                  .HasColumnName("images")
-                 .HasColumnType("varchar(255)")
+                 .HasColumnType("text")
                 .IsRequired();
             entityBuilder.Property(t => t.Description)
                 .HasColumnName("description")
-                .HasColumnType("varchar(255)")
+                .HasColumnType("text")
                 .IsRequired();
             entityBuilder.Property(t => t.Price)
                  .HasColumnName("price")
@@ -41,7 +41,7 @@ namespace Ecommerce.Website.Database.Models
             entityBuilder.Property(t => t.Quanity)
                 .HasColumnName("quanity");
             entityBuilder.Property(t => t.ShortDesc)
-                .HasColumnType("varchar(100)")
+                .HasColumnType("text")
                 .HasColumnName("short_desc");
             entityBuilder.Property(t => t.CategoryId)
                 .HasColumnName(@"category_id");

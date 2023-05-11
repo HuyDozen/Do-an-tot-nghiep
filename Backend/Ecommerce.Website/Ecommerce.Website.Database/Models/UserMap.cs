@@ -15,11 +15,16 @@ namespace Ecommerce.Website.Database.Models
             entityBuilder.HasKey(t => t.Id);
             entityBuilder.Property(t => t.Id)
                 .HasColumnName("user_id")
+                //.HasColumnType("SERIAL")
                 .IsRequired();
             entityBuilder.Property(t => t.FullName)
                 .HasColumnName("full_name")
                 .HasColumnType("varchar(255)")
                 .IsRequired();
+            entityBuilder.Property(t => t.PhoneNumber)
+               .HasColumnName("phone_number")
+               .HasColumnType("varchar(100)")
+               .IsRequired();
             entityBuilder.Property(t => t.Username)
                 .HasColumnName("user_name")
                 .HasColumnType("varchar(100)")
@@ -35,6 +40,9 @@ namespace Ecommerce.Website.Database.Models
             entityBuilder.Property(t => t.Age)
                 .HasColumnName("age")
                 .IsRequired();
+            entityBuilder.Property(t => t.Gender)
+               .HasColumnName("gender")    
+               .IsRequired();
             entityBuilder.Property(t => t.Role)
                 .HasColumnName("role")
                 .HasColumnType("varchar(50)")

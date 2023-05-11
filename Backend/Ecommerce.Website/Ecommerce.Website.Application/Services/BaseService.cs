@@ -54,9 +54,11 @@ namespace Ecommerce.Website.Application.Services
             {
                 if (entity == null)
                 {
+
                     throw new ArgumentNullException("entity");
                 }
                 _baseRepository.InsertRecord(entity);
+
             }
             catch (Exception ex)
             {

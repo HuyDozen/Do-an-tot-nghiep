@@ -10,7 +10,7 @@ namespace Ecommerce.Website.Database.Repositories
     {
         private readonly EcommerceContext context;
         private DbSet<T> entities;
-        string errorMessage = string.Empty;
+        //string errorMessage = string.Empty;
         public BaseRepository(EcommerceContext context)
         {
             this.context = context;
@@ -22,39 +22,47 @@ namespace Ecommerce.Website.Database.Repositories
         }
         public T GetRecordById(int id)
         {
-            var recordById = entities.Where(s => s.Id == id)
-                    .FirstOrDefault();
+            var recordById = entities.Where(s => s.Id == id).Select(s => s).FirstOrDefault();
+                    
             return recordById;
            
             
             //return entities.FirstOrDefault(s => s.Id == id);
         }
+        
         public void InsertRecord(T entity)
         {
-          
-
-            entities.Add(entity);
+            context.Add(entity);
             context.SaveChanges();
         }
         public void UpdateRecord(T entity)
         {
             // Xử lý thêm việc nhập id không trùng
-            //var record = entities.SingleOrDefault(s => s.Id == id); // Lấy thông tin record theo id truyền vào     
+             
             if (entity == null)
             {
                 throw new ArgumentNullException("entity");
             }
-            context.SaveChanges();
+            else
+            {
+                entities.Attach(entity);
+                context.Entry(entity).State = EntityState.Modified;
+                context.SaveChanges();
+            }
+                
         }
         public void DeleteRecord(int id)
         {
-            var record = entities.SingleOrDefault(s => s.Id == id); // Lấy thông tin record theo id truyền vào
+            var record = entities.SingleOrDefault(s => s.Id.Equals(id)); // Lấy thông tin record theo id truyền vào
             if (record == null)
             {
                 throw new ArgumentNullException("entity");
             }
-            entities.Remove(record);
-            context.SaveChanges();
+            else {
+                entities.Remove(record);
+                context.SaveChanges();
+            }
+            
         }
 
     }

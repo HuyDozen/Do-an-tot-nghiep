@@ -9,7 +9,7 @@ namespace Ecommerce.Website.Database.Models
     public class Order : BaseEntity
     {
         public int UserId { get; set; }
-        public User? User { get; set; }
-        public ICollection<OrderDetail>? orderDetails { get; set; }
+        public virtual User? User { get; set; }
+        public virtual ICollection<OrderDetail>? orderDetails { get; set; }
     }
 }
