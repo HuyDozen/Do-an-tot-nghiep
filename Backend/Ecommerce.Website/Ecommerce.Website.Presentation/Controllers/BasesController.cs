@@ -2,6 +2,7 @@
 using Ecommerce.Website.Application.Contacts;
 using Ecommerce.Website.Database.Models;
 using Ecommerce.Website.Presentation.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,7 +20,7 @@ namespace Ecommerce.Website.Presentation.Controllers
             _baseService = baseService;
         }
         /// <summary>
-        /// API lấy danh sách bản ghi
+        /// API lấy danh sách toàn bộ bản ghi
         /// </summary>
         /// <returns>Trả về danh sách toàn bộ bản ghi</returns>
         [HttpGet]
@@ -87,11 +88,13 @@ namespace Ecommerce.Website.Presentation.Controllers
         }
 
         /// <summary>
-        /// API khởi tạo record mới 
+        /// API khởi tạo bản ghi mới 
         /// </summary>
         /// <param name="t"></param>
         /// <returns>Id của người record khởi tạo</returns>
+        /// 
         [HttpPost]
+        //[Authorize(Roles = "admin,superAdmin")]
         public IActionResult InsertRecord([FromBody] T entity)
         {
             try
@@ -108,13 +111,13 @@ namespace Ecommerce.Website.Presentation.Controllers
         }
 
         /// <summary>
-        /// API sửa người dùng theo id
+        /// API chinh sua ban ghi theo id
         /// </summary>
-        /// <param name="user"></param>
-        /// <param name="userId"></param>
-        /// <returns>Sẽ trả về id người dùng được sửa</returns>
+        /// <param name="entity"></param>
+        /// <param name="recordID"></param>
+        /// <returns></returns>
         [HttpPut]
-        [Route("Users/UpdateUser")]
+        //[Authorize(Roles = "admin,superAdmin")]
         public IActionResult UpdateRecordById([FromBody] T entity)
         {
             try
@@ -144,6 +147,7 @@ namespace Ecommerce.Website.Presentation.Controllers
         /// <param name="recordID"></param>
         /// <returns></returns>
         [HttpDelete("{recordID}")]
+        //[Authorize(Roles = "admin,superAdmin")]
         public IActionResult DeleteRecordById([FromRoute] int recordID)
         {
             try

@@ -1,130 +1,95 @@
 ﻿++Solution 'Ecommerce.Website' ‎(3 of 3 projects)
 i:{00000000-0000-0000-0000-000000000000}:Ecommerce.Website.sln
-++Ecommerce.Website.Presentation
-i:{00000000-0000-0000-0000-000000000000}:Ecommerce.Website.Presentation
-++Connected Services 
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>599
-++Dependencies
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>598
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>450
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:>449
-++Properties
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\properties\
-++Controllers
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\
-++AddressesController.cs
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\addressescontroller.cs
-++BasesController.cs
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\basescontroller.cs
-++CategoriesController.cs
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\categoriescontroller.cs
-++OrderDetailsController.cs
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\orderdetailscontroller.cs
-++OrdersController.cs
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\orderscontroller.cs
-++ProductsController.cs
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\productscontroller.cs
-++UsersController.cs
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\userscontroller.cs
-++Dtos
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\dtos\
-++Mappings
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\mappings\
-++appsettings.Development.json
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\appsettings.development.json
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\appsettings.development.json
-++appsettings.json
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\appsettings.json
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\appsettings.json
-++Program.cs
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\program.cs
-++No service dependencies discovered
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>600
-++Analyzers
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:analyzers
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:analyzers
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:analyzers
-++Frameworks
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:frameworks
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:frameworks
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:frameworks
-++Packages
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:packages
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:packages
-++Projects
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:projects
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:projects
-++launchSettings.json
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\properties\launchsettings.json
-++UserDto.cs
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\dtos\userdto.cs
-++AutoMapperConfiguration.cs
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\mappings\automapperconfiguration.cs
-++Microsoft.AspNetCore.Analyzers
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-++Microsoft.AspNetCore.App.Analyzers
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-++Microsoft.AspNetCore.App.CodeFixes
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-++Microsoft.AspNetCore.Components.Analyzers
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-++Microsoft.AspNetCore.Mvc.Analyzers
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
-++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-++Microsoft.CodeAnalysis.NetAnalyzers
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-++Microsoft.EntityFrameworkCore.Analyzers
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\users\pc\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:c:\users\pc\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:c:\users\pc\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++Microsoft.Extensions.Logging.Generators
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\users\pc\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:c:\users\pc\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:c:\users\pc\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
-++System.Text.Json.SourceGeneration
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\users\pc\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:c:\users\pc\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-++Microsoft.AspNetCore.App
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\microsoft.aspnetcore.app
-++Microsoft.NETCore.App
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\microsoft.netcore.app
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\microsoft.netcore.app
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\microsoft.netcore.app
-++AutoMapper (12.0.1)
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>631
-++Microsoft.EntityFrameworkCore (7.0.4)
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>629
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>612
-++Microsoft.EntityFrameworkCore.Tools (7.0.4)
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>632
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>617
-++Swashbuckle.AspNetCore (6.2.3)
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>630
 ++Ecommerce.Website.Application
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\ecommerce.website.application.csproj
 i:{00000000-0000-0000-0000-000000000000}:Ecommerce.Website.Application
-++Ecommerce.Website.Database
-i:{00000000-0000-0000-0000-000000000000}:Ecommerce.Website.Database
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\ecommerce.website.database.csproj
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\ecommerce.website.application.csproj
+++Dependencies
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:>558
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>559
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>884
 ++Contacts
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\contacts\
 i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\contacts\
+++IAddressService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\iaddressservice.cs
+++IBaseService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\ibaseservice.cs
+++ICategoryService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\icategoryservice.cs
+++IEmailService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\iemailservice.cs
+++IOrderDetailService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\iorderdetailservice.cs
+++IOrderService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\iorderservice.cs
+++IProductService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\iproductservice.cs
+++IUserService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\iuserservice.cs
+++Services
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\
+++AddressService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\addressservice.cs
+++BaseService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\baseservice.cs
+++CategoryService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\categoryservice.cs
+++EmailService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\emailservice.cs
+++OrderDetailService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\orderdetailservice.cs
+++OrderService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\orderservice.cs
+++ProductService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\productservice.cs
+++UserService.cs
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\userservice.cs
+++Analyzers
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:analyzers
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:analyzers
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:analyzers
+++Frameworks
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:frameworks
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:frameworks
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:frameworks
+++Projects
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:projects
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:projects
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:c:\users\pc\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:c:\users\pc\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\users\pc\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:c:\users\pc\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:c:\users\pc\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\users\pc\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:c:\users\pc\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\users\pc\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\microsoft.netcore.app
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\microsoft.netcore.app
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\microsoft.netcore.app
+++Ecommerce.Website.Database
+i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\ecommerce.website.database.csproj
+i:{00000000-0000-0000-0000-000000000000}:Ecommerce.Website.Database
 ++IAddressRepository.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\contacts\iaddressrepository.cs
 ++IBaseRepository.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\contacts\ibaserepository.cs
 ++ICategoryRepository.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\contacts\icategoryrepository.cs
+++IEmailRepository.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\contacts\iemailrepository.cs
 ++IOrderDetailRepository.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\contacts\iorderdetailrepository.cs
 ++IOrderRepository.cs
@@ -135,46 +100,83 @@ i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecom
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\contacts\iuserrepository.cs
 ++Data
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\data\
-++Migrations
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\
-++Models
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\
-++Repositories
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\
-++AddressRepository.cs
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\addressrepository.cs
-++BaseRepository.cs
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\baserepository.cs
-++CategoryRepository.cs
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\categoryrepository.cs
-++OrderDetailRepository.cs
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\orderdetailrepository.cs
-++OrderRepository.cs
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\orderrepository.cs
-++ProductRepository.cs
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\productrepository.cs
-++UserRepository.cs
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\userrepository.cs
 ++EcommerceContext.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\data\ecommercecontext.cs
+++PaginatedList.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\data\paginatedlist.cs
 ++PKConvention.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\data\pkconvention.cs
+++Migrations
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\
 ++20230324035023_initDBFirst.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230324035023_initdbfirst.cs
 ++20230324041757_initDBFirst-v1.1.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230324041757_initdbfirst-v1.1.cs
+++20230402033656_initDBSecond.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230402033656_initdbsecond.cs
+++20230403081935_initDBSecond-v2.1.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230403081935_initdbsecond-v2.1.cs
+++20230505064122_initDBFirst-v1.2.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230505064122_initdbfirst-v1.2.cs
+++20230505075451_initDBFirst-v1.3.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230505075451_initdbfirst-v1.3.cs
+++20230506054908_initDBFirst-v2.2.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230506054908_initdbfirst-v2.2.cs
 ++EcommerceContextModelSnapshot.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\ecommercecontextmodelsnapshot.cs
+++Models
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\models\
+++Authetication
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\authetication\
+++Login
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\authetication\login\
+++Signup
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\authetication\signup\
+++RegisterUser.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\authetication\signup\registeruser.cs
+++TokenModel.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\authetication\tokenmodel.cs
+++Checkout
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\checkout\
+++Configiurations
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\configiurations\
+++ResponseModels
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\responsemodels\
+++DetailOrderResponse.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\responsemodels\detailorderresponse.cs
+++InforLogin.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\responsemodels\inforlogin.cs
+++InforProduct.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\responsemodels\inforproduct.cs
+++ListOrderDetailModel.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\responsemodels\listorderdetailmodel.cs
+++ListProductByOrder.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\responsemodels\listproductbyorder.cs
+++ListProductResponse.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\responsemodels\listproductresponse.cs
+++ProductByOrderViewModel.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\responsemodels\productbyorderviewmodel.cs
+++ProductsByCategory.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\responsemodels\productsbycategory.cs
+++ProductsReponse.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\responsemodels\productsreponse.cs
+++UserRegister.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\responsemodels\userregister.cs
 ++Address.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\address.cs
 ++AddressMap.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\addressmap.cs
+++AppSettings.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\appsettings.cs
 ++BaseEntity.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\baseentity.cs
 ++Category.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\category.cs
 ++CategoryMap.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\categorymap.cs
+++EmailDto.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\emaildto.cs
 ++Order.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\order.cs
 ++OrderDetail.cs
@@ -187,207 +189,119 @@ i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecom
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\product.cs
 ++ProductMap.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\productmap.cs
+++RefreshToken.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\refreshtoken.cs
+++RefreshTokenMap.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\refreshtokenmap.cs
+++Response.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\response.cs
 ++User.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\user.cs
 ++UserMap.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\usermap.cs
-++EntityFramework (6.4.4)
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>618
-++Microsoft.EntityFrameworkCore.InMemory (7.0.4)
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>615
-++Npgsql.EntityFrameworkCore.PostgreSQL (7.0.3)
-i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>613
+++Repositories
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\
+++AddressRepository.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\addressrepository.cs
+++BaseRepository.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\baserepository.cs
+++CategoryRepository.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\categoryrepository.cs
+++EmailRepository.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\emailrepository.cs
+++OrderDetailRepository.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\orderdetailrepository.cs
+++OrderRepository.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\orderrepository.cs
+++ProductRepository.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\productrepository.cs
+++UserRepository.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\repositories\userrepository.cs
+++Packages
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:packages
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:packages
 ++20230324035023_initDBFirst.Designer.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230324035023_initdbfirst.designer.cs
 ++20230324041757_initDBFirst-v1.1.Designer.cs
 i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230324041757_initdbfirst-v1.1.designer.cs
-++Services
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\
-++IAddressService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\iaddressservice.cs
-++IBaseService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\ibaseservice.cs
-++ICategoryService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\icategoryservice.cs
-++IOrderDetailService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\iorderdetailservice.cs
-++IOrderService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\iorderservice.cs
-++IProductService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\iproductservice.cs
-++IUserService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\contacts\iuserservice.cs
-++AddressService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\addressservice.cs
-++BaseService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\baseservice.cs
-++CategoryService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\categoryservice.cs
-++OrderDetailService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\orderdetailservice.cs
-++OrderService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\orderservice.cs
-++ProductService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\productservice.cs
-++UserService.cs
-i:{a528198f-8296-4023-96de-46b47c42fcd0}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.application\services\userservice.cs
+++20230402033656_initDBSecond.Designer.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230402033656_initdbsecond.designer.cs
+++20230403081935_initDBSecond-v2.1.Designer.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230403081935_initdbsecond-v2.1.designer.cs
+++20230505064122_initDBFirst-v1.2.Designer.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230505064122_initdbfirst-v1.2.designer.cs
+++20230505075451_initDBFirst-v1.3.Designer.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230505075451_initdbfirst-v1.3.designer.cs
+++20230506054908_initDBFirst-v2.2.Designer.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\migrations\20230506054908_initdbfirst-v2.2.designer.cs
+++Login.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\authetication\login\login.cs
+++IncartModel.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\checkout\incartmodel.cs
+++OrderDetailModel.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\checkout\orderdetailmodel.cs
+++EmailConfiguration.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\configiurations\emailconfiguration.cs
+++JwtConfig.cs
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.database\models\configiurations\jwtconfig.cs
+++EntityFramework (6.4.4)
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>899
+++MailKit (4.0.0)
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>900
+++Microsoft.AspNetCore.Authorization (7.0.4)
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>895
+++Microsoft.EntityFrameworkCore (7.0.4)
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>893
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>918
+++Microsoft.EntityFrameworkCore.InMemory (7.0.4)
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>897
+++Microsoft.EntityFrameworkCore.Tools (7.0.4)
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>898
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>924
+++Npgsql.EntityFrameworkCore.PostgreSQL (7.0.3)
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>896
+++System.IdentityModel.Tokens.Jwt (6.28.0)
+i:{e2243bc2-f23b-41de-9416-e8d2f5aff6f9}:>894
+++Ecommerce.Website.Presentation
+i:{00000000-0000-0000-0000-000000000000}:Ecommerce.Website.Presentation
+++Connected Services 
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>885
+++Imports
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>562
+++Properties
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\properties\
+++launchSettings.json
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\properties\launchsettings.json
 ++bin
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\
-++Debug
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\
-++Release
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\release\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\release\
-++net6.0
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\release\net6.0\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\browser\lib\net6.0\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\release\net6.0\
-++ref
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ref\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\release\net6.0\ref\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ref\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\release\net6.0\ref\
-++runtimes
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\
-++AutoMapper.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\automapper.dll
-++Ecommerce.Website.Application.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.application.dll
-++Ecommerce.Website.Application.pdb
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.application.pdb
-++Ecommerce.Website.Database.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.database.dll
-++Ecommerce.Website.Database.pdb
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.database.pdb
-++Ecommerce.Website.Presentation.deps.json
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.presentation.deps.json
-++Ecommerce.Website.Presentation.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.presentation.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ref\ecommerce.website.presentation.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ecommerce.website.presentation.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ref\ecommerce.website.presentation.dll
-++Ecommerce.Website.Presentation.exe
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.presentation.exe
-++Ecommerce.Website.Presentation.pdb
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.presentation.pdb
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ecommerce.website.presentation.pdb
-++Ecommerce.Website.Presentation.runtimeconfig.json
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.presentation.runtimeconfig.json
-++EntityFramework.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\entityframework.dll
-++EntityFramework.SqlServer.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\entityframework.sqlserver.dll
-++Humanizer.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\humanizer.dll
-++Microsoft.EntityFrameworkCore.Abstractions.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.entityframeworkcore.abstractions.dll
-++Microsoft.EntityFrameworkCore.Design.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.entityframeworkcore.design.dll
-++Microsoft.EntityFrameworkCore.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.entityframeworkcore.dll
-++Microsoft.EntityFrameworkCore.InMemory.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.entityframeworkcore.inmemory.dll
-++Microsoft.EntityFrameworkCore.Relational.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.entityframeworkcore.relational.dll
-++Microsoft.Extensions.Caching.Abstractions.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.caching.abstractions.dll
-++Microsoft.Extensions.Caching.Memory.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.caching.memory.dll
-++Microsoft.Extensions.Configuration.Abstractions.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.configuration.abstractions.dll
-++Microsoft.Extensions.DependencyInjection.Abstractions.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.dependencyinjection.abstractions.dll
-++Microsoft.Extensions.DependencyInjection.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.dependencyinjection.dll
-++Microsoft.Extensions.DependencyModel.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.dependencymodel.dll
-++Microsoft.Extensions.Logging.Abstractions.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.logging.abstractions.dll
-++Microsoft.Extensions.Logging.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.logging.dll
-++Microsoft.Extensions.Options.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.options.dll
-++Microsoft.Extensions.Primitives.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.primitives.dll
-++Microsoft.OpenApi.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.openapi.dll
-++Microsoft.Win32.SystemEvents.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.win32.systemevents.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\microsoft.win32.systemevents.dll
-++Mono.TextTemplating.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\mono.texttemplating.dll
-++Npgsql.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\npgsql.dll
-++Npgsql.EntityFrameworkCore.PostgreSQL.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\npgsql.entityframeworkcore.postgresql.dll
-++Swashbuckle.AspNetCore.Swagger.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\swashbuckle.aspnetcore.swagger.dll
-++Swashbuckle.AspNetCore.SwaggerGen.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\swashbuckle.aspnetcore.swaggergen.dll
-++Swashbuckle.AspNetCore.SwaggerUI.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\swashbuckle.aspnetcore.swaggerui.dll
-++System.CodeDom.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.codedom.dll
-++System.Configuration.ConfigurationManager.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.configuration.configurationmanager.dll
-++System.Data.SqlClient.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.data.sqlclient.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\unix\lib\netcoreapp2.1\system.data.sqlclient.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netcoreapp2.1\system.data.sqlclient.dll
-++System.Drawing.Common.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.drawing.common.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\system.drawing.common.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.drawing.common.dll
-++System.Security.Cryptography.ProtectedData.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.security.cryptography.protecteddata.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
-++System.Security.Permissions.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.security.permissions.dll
-++System.Text.Encodings.Web.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.text.encodings.web.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\browser\lib\net6.0\system.text.encodings.web.dll
-++System.Text.Json.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.text.json.dll
-++System.Windows.Extensions.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.windows.extensions.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.windows.extensions.dll
-++browser
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\browser\
-++unix
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\unix\
-++win
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\
-++win-arm64
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-arm64\
-++win-x64
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-x64\
-++win-x86
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-x86\
-++lib
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\browser\lib\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\unix\lib\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\
-++native
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-arm64\native\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-x64\native\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-x86\native\
-++netcoreapp2.1
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\unix\lib\netcoreapp2.1\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netcoreapp2.1\
-++netcoreapp3.0
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\
-++netstandard2.0
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\
-++sni.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-arm64\native\sni.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-x64\native\sni.dll
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-x86\native\sni.dll
+++Controllers
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\
+++AddressesController.cs
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\addressescontroller.cs
+++BasesController.cs
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\basescontroller.cs
+++CategoriesController.cs
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\categoriescontroller.cs
+++EmailController.cs
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\emailcontroller.cs
+++OrderDetailsController.cs
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\orderdetailscontroller.cs
+++OrdersController.cs
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\orderscontroller.cs
+++ProductsController.cs
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\productscontroller.cs
+++UsersController.cs
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\controllers\userscontroller.cs
+++Dtos
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\dtos\
 ++obj
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\
+++Debug
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\
+++Release
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\release\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\release\
 ++Ecommerce.Website.Presentation.csproj.nuget.dgspec.json
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\ecommerce.website.presentation.csproj.nuget.dgspec.json
 ++Ecommerce.Website.Presentation.csproj.nuget.g.props
@@ -402,6 +316,79 @@ i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecom
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\project.nuget.cache
 ++staticwebassets.pack.sentinel
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\staticwebassets.pack.sentinel
+++appsettings.Development.json
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\appsettings.development.json
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\appsettings.development.json
+++appsettings.json
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\appsettings.json
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\appsettings.json
+++Program.cs
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\program.cs
+++No service dependencies discovered
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>886
+++Sdk.props
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\sdk\sdk.props
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\sdk\sdk.targets
+++UserDto.cs
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\dtos\userdto.cs
+++ApiResponse.cs
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\models\apiresponse.cs
+++net6.0
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\release\net6.0\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\release\net6.0\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\browser\lib\net6.0\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\net6.0\
+++Microsoft.AspNetCore.Analyzers
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\microsoft.aspnetcore.app
+++AutoMapper (12.0.1)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>922
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.0)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>923
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (6.0.3)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>921
+++Microsoft.EntityFrameworkCore.Proxies (7.0.4)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>920
+++Swashbuckle.AspNetCore (6.2.3)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>919
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\sdk\sdk.props
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
+++ref
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ref\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\release\net6.0\ref\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ref\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\release\net6.0\ref\
 ++staticwebassets
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\staticwebassets\
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\release\net6.0\staticwebassets\
@@ -428,6 +415,11 @@ i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecom
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ecommerce.website.presentation.csproj.corecompileinputs.cache
 ++Ecommerce.Website.Presentation.csproj.FileListAbsolute.txt
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ecommerce.website.presentation.csproj.filelistabsolute.txt
+++Ecommerce.Website.Presentation.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ecommerce.website.presentation.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.presentation.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ref\ecommerce.website.presentation.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ref\ecommerce.website.presentation.dll
 ++Ecommerce.Website.Presentation.GeneratedMSBuildEditorConfig.editorconfig
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ecommerce.website.presentation.generatedmsbuildeditorconfig.editorconfig
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\release\net6.0\ecommerce.website.presentation.generatedmsbuildeditorconfig.editorconfig
@@ -440,31 +432,11 @@ i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecom
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ecommerce.website.presentation.mvcapplicationpartsassemblyinfo.cache
 ++Ecommerce.Website.Presentation.MvcApplicationPartsAssemblyInfo.cs
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ecommerce.website.presentation.mvcapplicationpartsassemblyinfo.cs
+++Ecommerce.Website.Presentation.pdb
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\ecommerce.website.presentation.pdb
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.presentation.pdb
 ++staticwebassets.build.json
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\obj\debug\net6.0\staticwebassets.build.json
-++Imports
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:>657
-++Sdk.props
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\sdk\sdk.props
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.illink.tasks\sdk\sdk.props
-++Sdk.targets
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\sdk\sdk.targets
-++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk\Sdk)
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\sdk\sdk.props
-++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.props
-++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
-++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\sdk\sdk.props
-++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk\Sdk)
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\sdk\sdk.targets
-++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
-++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
-++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
-i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
 ++Microsoft.Common.props
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
 ++Microsoft.NET.Sdk.props
@@ -491,6 +463,143 @@ i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdk
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
 ++Microsoft.NET.Sdk.Publish.targets
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
+++runtimes
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\
+++AutoMapper.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\automapper.dll
+++BouncyCastle.Cryptography.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\bouncycastle.cryptography.dll
+++Castle.Core.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\castle.core.dll
+++Ecommerce.Website.Application.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.application.dll
+++Ecommerce.Website.Application.pdb
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.application.pdb
+++Ecommerce.Website.Database.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.database.dll
+++Ecommerce.Website.Database.pdb
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.database.pdb
+++Ecommerce.Website.Presentation.deps.json
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.presentation.deps.json
+++Ecommerce.Website.Presentation.exe
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.presentation.exe
+++Ecommerce.Website.Presentation.runtimeconfig.json
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\ecommerce.website.presentation.runtimeconfig.json
+++EntityFramework.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\entityframework.dll
+++EntityFramework.SqlServer.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\entityframework.sqlserver.dll
+++Humanizer.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\humanizer.dll
+++MailKit.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\mailkit.dll
+++Microsoft.AspNetCore.Authentication.JwtBearer.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.aspnetcore.authentication.jwtbearer.dll
+++Microsoft.AspNetCore.Authorization.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.aspnetcore.authorization.dll
+++Microsoft.AspNetCore.JsonPatch.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.aspnetcore.jsonpatch.dll
+++Microsoft.AspNetCore.Metadata.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.aspnetcore.metadata.dll
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.aspnetcore.mvc.newtonsoftjson.dll
+++Microsoft.EntityFrameworkCore.Abstractions.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.entityframeworkcore.abstractions.dll
+++Microsoft.EntityFrameworkCore.Design.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.entityframeworkcore.design.dll
+++Microsoft.EntityFrameworkCore.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.entityframeworkcore.dll
+++Microsoft.EntityFrameworkCore.InMemory.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.entityframeworkcore.inmemory.dll
+++Microsoft.EntityFrameworkCore.Proxies.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.entityframeworkcore.proxies.dll
+++Microsoft.EntityFrameworkCore.Relational.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.entityframeworkcore.relational.dll
+++Microsoft.Extensions.Caching.Abstractions.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.caching.abstractions.dll
+++Microsoft.Extensions.Caching.Memory.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.caching.memory.dll
+++Microsoft.Extensions.Configuration.Abstractions.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.configuration.abstractions.dll
+++Microsoft.Extensions.DependencyInjection.Abstractions.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.dependencyinjection.abstractions.dll
+++Microsoft.Extensions.DependencyInjection.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.dependencyinjection.dll
+++Microsoft.Extensions.DependencyModel.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.dependencymodel.dll
+++Microsoft.Extensions.Logging.Abstractions.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.logging.abstractions.dll
+++Microsoft.Extensions.Logging.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.logging.dll
+++Microsoft.Extensions.Options.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.options.dll
+++Microsoft.Extensions.Primitives.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.extensions.primitives.dll
+++Microsoft.IdentityModel.Abstractions.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.identitymodel.abstractions.dll
+++Microsoft.IdentityModel.JsonWebTokens.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.identitymodel.jsonwebtokens.dll
+++Microsoft.IdentityModel.Logging.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.identitymodel.logging.dll
+++Microsoft.IdentityModel.Protocols.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.identitymodel.protocols.dll
+++Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.identitymodel.protocols.openidconnect.dll
+++Microsoft.IdentityModel.Tokens.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.identitymodel.tokens.dll
+++Microsoft.OpenApi.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.openapi.dll
+++Microsoft.Win32.SystemEvents.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\microsoft.win32.systemevents.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\microsoft.win32.systemevents.dll
+++MimeKit.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\mimekit.dll
+++Mono.TextTemplating.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\mono.texttemplating.dll
+++Newtonsoft.Json.Bson.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\newtonsoft.json.bson.dll
+++Newtonsoft.Json.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\newtonsoft.json.dll
+++Npgsql.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\npgsql.dll
+++Npgsql.EntityFrameworkCore.PostgreSQL.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\npgsql.entityframeworkcore.postgresql.dll
+++Swashbuckle.AspNetCore.Swagger.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\swashbuckle.aspnetcore.swagger.dll
+++Swashbuckle.AspNetCore.SwaggerGen.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\swashbuckle.aspnetcore.swaggergen.dll
+++Swashbuckle.AspNetCore.SwaggerUI.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\swashbuckle.aspnetcore.swaggerui.dll
+++System.CodeDom.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.codedom.dll
+++System.Configuration.ConfigurationManager.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.configuration.configurationmanager.dll
+++System.Data.SqlClient.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.data.sqlclient.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\unix\lib\netcoreapp2.1\system.data.sqlclient.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netcoreapp2.1\system.data.sqlclient.dll
+++System.Drawing.Common.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.drawing.common.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\system.drawing.common.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.drawing.common.dll
+++System.IdentityModel.Tokens.Jwt.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.identitymodel.tokens.jwt.dll
+++System.Security.Cryptography.Pkcs.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.security.cryptography.pkcs.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\net6.0\system.security.cryptography.pkcs.dll
+++System.Security.Cryptography.ProtectedData.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.security.cryptography.protecteddata.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\system.security.cryptography.protecteddata.dll
+++System.Security.Permissions.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.security.permissions.dll
+++System.Text.Encodings.Web.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.text.encodings.web.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\browser\lib\net6.0\system.text.encodings.web.dll
+++System.Text.Json.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.text.json.dll
+++System.Windows.Extensions.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\system.windows.extensions.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\system.windows.extensions.dll
 ++Microsoft.NuGet.ImportBefore.props
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
 ++NuGet.props
@@ -631,6 +740,18 @@ i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdk
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\publishtargets\microsoft.net.sdk.publish.filesystem.targets
 ++Microsoft.NET.Sdk.DotNetCLITool.targets
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\dotnetclitooltargets\microsoft.net.sdk.dotnetclitool.targets
+++browser
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\browser\
+++unix
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\unix\
+++win
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\
+++win-arm64
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-arm64\
+++win-x64
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-x64\
+++win-x86
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-x86\
 ++Microsoft.Extensions.ApiDescription.Server.props
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\users\pc\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0\build\microsoft.extensions.apidescription.server.props
 ++Swashbuckle.AspNetCore.props
@@ -686,6 +807,14 @@ i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdk
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
 ++Microsoft.CodeAnalysis.NetAnalyzers.targets
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++lib
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\browser\lib\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\unix\lib\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\
+++native
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-arm64\native\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-x64\native\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-x86\native\
 ++Microsoft.NET.ILLink.Tasks.props
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
 ++System.Windows.Forms.Analyzers.props
@@ -696,6 +825,18 @@ i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\microsoft visual studi
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
 ++Microsoft.Common.CurrentVersion.targets
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++netcoreapp2.1
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\unix\lib\netcoreapp2.1\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netcoreapp2.1\
+++netcoreapp3.0
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\unix\lib\netcoreapp3.0\
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netcoreapp3.0\
+++netstandard2.0
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win\lib\netstandard2.0\
+++sni.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-arm64\native\sni.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-x64\native\sni.dll
+i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:d:\source\do-an-tot-nghiep\backend\ecommerce.website\ecommerce.website.presentation\bin\debug\net6.0\runtimes\win-x86\native\sni.dll
 ++Microsoft.Managed.Core.CurrentVersions.targets
 i:{e34fb1a1-ea0c-45d4-90cb-06faf341eaa7}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
 ++Ecommerce.Website.Presentation.csproj.user

@@ -3,7 +3,6 @@ D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\
 D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\bin\Debug\net6.0\Ecommerce.Website.Database.dll
 D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\bin\Debug\net6.0\ref\Ecommerce.Website.Database.dll
 D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\bin\Debug\net6.0\Ecommerce.Website.Database.pdb
-D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\obj\Debug\net6.0\Ecommerce.Website.Database.csproj.AssemblyReference.cache
 D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\obj\Debug\net6.0\Ecommerce.Website.Database.GeneratedMSBuildEditorConfig.editorconfig
 D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\obj\Debug\net6.0\Ecommerce.Website.Database.AssemblyInfoInputs.cache
 D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\obj\Debug\net6.0\Ecommerce.Website.Database.AssemblyInfo.cs
@@ -12,3 +11,4 @@ D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\
 D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\obj\Debug\net6.0\ref\Ecommerce.Website.Database.dll
 D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\obj\Debug\net6.0\Ecommerce.Website.Database.pdb
 D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\obj\Debug\net6.0\Ecommerce.Website.Database.genruntimeconfig.cache
+D:\Source\Do-an-tot-nghiep\Backend\Ecommerce.Website\Ecommerce.Website.Database\obj\Debug\net6.0\Ecommerce.Website.Database.csproj.AssemblyReference.cache

@@ -45,11 +45,11 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("created_by");
 
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("created_date");
 
-                    b.Property<bool>("IsDeleted")
+                    b.Property<bool?>("IsDeleted")
                         .HasColumnType("boolean")
                         .HasColumnName("is_deleted");
 
@@ -67,8 +67,8 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("modified_by");
 
-                    b.Property<DateTime>("ModifiedDate")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("modified_date");
 
                     b.Property<string>("PhoneNumber")
@@ -94,7 +94,7 @@ namespace Ecommerce.Website.Database.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Address");
+                    b.ToTable("Addresss");
                 });
 
             modelBuilder.Entity("Ecommerce.Website.Database.Models.Category", b =>
@@ -110,11 +110,11 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("created_by");
 
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("created_date");
 
-                    b.Property<bool>("IsDeleted")
+                    b.Property<bool?>("IsDeleted")
                         .HasColumnType("boolean")
                         .HasColumnName("is_deleted");
 
@@ -122,8 +122,8 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("modified_by");
 
-                    b.Property<DateTime>("ModifiedDate")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("modified_date");
 
                     b.Property<string>("Title")
@@ -133,7 +133,66 @@ namespace Ecommerce.Website.Database.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Category");
+                    b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("Ecommerce.Website.Database.Models.Comment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("comment_id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("content");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("created_date");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("email");
+
+                    b.Property<bool?>("IsDeleted")
+                        .HasColumnType("boolean")
+                        .HasColumnName("is_deleted");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("modified_by");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("modified_date");
+
+                    b.Property<string>("NameAssessor")
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("name_assessor");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("integer")
+                        .HasColumnName("product_id");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Comments");
                 });
 
             modelBuilder.Entity("Ecommerce.Website.Database.Models.Order", b =>
@@ -149,11 +208,11 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("created_by");
 
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("created_date");
 
-                    b.Property<bool>("IsDeleted")
+                    b.Property<bool?>("IsDeleted")
                         .HasColumnType("boolean")
                         .HasColumnName("is_deleted");
 
@@ -161,8 +220,8 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("modified_by");
 
-                    b.Property<DateTime>("ModifiedDate")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("modified_date");
 
                     b.Property<int>("UserId")
@@ -173,7 +232,7 @@ namespace Ecommerce.Website.Database.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Order");
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("Ecommerce.Website.Database.Models.OrderDetail", b =>
@@ -189,11 +248,11 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("created_by");
 
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("created_date");
 
-                    b.Property<bool>("IsDeleted")
+                    b.Property<bool?>("IsDeleted")
                         .HasColumnType("boolean")
                         .HasColumnName("is_deleted");
 
@@ -201,8 +260,8 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("modified_by");
 
-                    b.Property<DateTime>("ModifiedDate")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("modified_date");
 
                     b.Property<int>("OrderId")
@@ -223,7 +282,7 @@ namespace Ecommerce.Website.Database.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("OrderDetail");
+                    b.ToTable("OrderDetails");
                 });
 
             modelBuilder.Entity("Ecommerce.Website.Database.Models.Product", b =>
@@ -235,7 +294,7 @@ namespace Ecommerce.Website.Database.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CategoryId")
+                    b.Property<int?>("CategoryId")
                         .HasColumnType("integer")
                         .HasColumnName("category_id");
 
@@ -243,26 +302,26 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("created_by");
 
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("created_date");
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("varchar(255)")
+                        .HasColumnType("text")
                         .HasColumnName("description");
 
                     b.Property<string>("Image")
                         .IsRequired()
-                        .HasColumnType("varchar(255)")
+                        .HasColumnType("text")
                         .HasColumnName("image");
 
                     b.Property<string>("Images")
                         .IsRequired()
-                        .HasColumnType("varchar(255)")
+                        .HasColumnType("text")
                         .HasColumnName("images");
 
-                    b.Property<bool>("IsDeleted")
+                    b.Property<bool?>("IsDeleted")
                         .HasColumnType("boolean")
                         .HasColumnName("is_deleted");
 
@@ -270,8 +329,8 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("modified_by");
 
-                    b.Property<DateTime>("ModifiedDate")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("modified_date");
 
                     b.Property<decimal>("Price")
@@ -279,13 +338,12 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("decimal(18,4)")
                         .HasColumnName("price");
 
-                    b.Property<int>("Quanity")
+                    b.Property<int?>("Quanity")
                         .HasColumnType("integer")
                         .HasColumnName("quanity");
 
                     b.Property<string>("ShortDesc")
-                        .IsRequired()
-                        .HasColumnType("varchar(100)")
+                        .HasColumnType("text")
                         .HasColumnName("short_desc");
 
                     b.Property<string>("Title")
@@ -297,7 +355,129 @@ namespace Ecommerce.Website.Database.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Product");
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("Ecommerce.Website.Database.Models.Rating", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("rating_id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("created_date");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("email");
+
+                    b.Property<bool?>("IsDeleted")
+                        .HasColumnType("boolean")
+                        .HasColumnName("is_deleted");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("modified_by");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("modified_date");
+
+                    b.Property<string>("NameAssessor")
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("name_assessor");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("integer")
+                        .HasColumnName("product_id");
+
+                    b.Property<int>("RatingCount")
+                        .HasColumnType("integer")
+                        .HasColumnName("rating_count");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Ratings");
+                });
+
+            modelBuilder.Entity("Ecommerce.Website.Database.Models.RefreshToken", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("product_id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("created_date");
+
+                    b.Property<DateTime>("ExpiredAt")
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("expired_at");
+
+                    b.Property<bool?>("IsDeleted")
+                        .HasColumnType("boolean")
+                        .HasColumnName("is_deleted");
+
+                    b.Property<string>("IsRevoked")
+                        .IsRequired()
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("is_revoked");
+
+                    b.Property<string>("IsUsed")
+                        .IsRequired()
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("is_used");
+
+                    b.Property<string>("JwtId")
+                        .IsRequired()
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("jwt_id");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("modified_by");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("timestamp without time zone")
+                        .HasColumnName("modified_date");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("token");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RefreshTokens");
                 });
 
             modelBuilder.Entity("Ecommerce.Website.Database.Models.User", b =>
@@ -317,8 +497,8 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("created_by");
 
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("created_date");
 
                     b.Property<string>("Email")
@@ -331,7 +511,11 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("full_name");
 
-                    b.Property<bool>("IsDeleted")
+                    b.Property<int>("Gender")
+                        .HasColumnType("integer")
+                        .HasColumnName("gender");
+
+                    b.Property<bool?>("IsDeleted")
                         .HasColumnType("boolean")
                         .HasColumnName("is_deleted");
 
@@ -339,14 +523,19 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasColumnType("varchar(255)")
                         .HasColumnName("modified_by");
 
-                    b.Property<DateTime>("ModifiedDate")
-                        .HasColumnType("timestamp with time zone")
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("timestamp without time zone")
                         .HasColumnName("modified_date");
 
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("varchar(255)")
                         .HasColumnName("password");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("phone_number");
 
                     b.Property<string>("Role")
                         .IsRequired()
@@ -360,7 +549,7 @@ namespace Ecommerce.Website.Database.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("Ecommerce.Website.Database.Models.Address", b =>
@@ -370,6 +559,25 @@ namespace Ecommerce.Website.Database.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Ecommerce.Website.Database.Models.Comment", b =>
+                {
+                    b.HasOne("Ecommerce.Website.Database.Models.Product", "Product")
+                        .WithMany("Comments")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Ecommerce.Website.Database.Models.User", "User")
+                        .WithMany("Comments")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
 
                     b.Navigation("User");
                 });
@@ -408,11 +616,39 @@ namespace Ecommerce.Website.Database.Migrations
                 {
                     b.HasOne("Ecommerce.Website.Database.Models.Category", "Category")
                         .WithMany("Products")
-                        .HasForeignKey("CategoryId")
+                        .HasForeignKey("CategoryId");
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("Ecommerce.Website.Database.Models.Rating", b =>
+                {
+                    b.HasOne("Ecommerce.Website.Database.Models.Product", "Product")
+                        .WithMany("Ratings")
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Category");
+                    b.HasOne("Ecommerce.Website.Database.Models.User", "User")
+                        .WithMany("Ratings")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Ecommerce.Website.Database.Models.RefreshToken", b =>
+                {
+                    b.HasOne("Ecommerce.Website.Database.Models.User", "User")
+                        .WithMany("RefreshTokens")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Ecommerce.Website.Database.Models.Category", b =>
@@ -427,6 +663,10 @@ namespace Ecommerce.Website.Database.Migrations
 
             modelBuilder.Entity("Ecommerce.Website.Database.Models.Product", b =>
                 {
+                    b.Navigation("Comments");
+
+                    b.Navigation("Ratings");
+
                     b.Navigation("orderDetails");
                 });
 
@@ -434,7 +674,13 @@ namespace Ecommerce.Website.Database.Migrations
                 {
                     b.Navigation("Address");
 
+                    b.Navigation("Comments");
+
                     b.Navigation("Orders");
+
+                    b.Navigation("Ratings");
+
+                    b.Navigation("RefreshTokens");
                 });
 #pragma warning restore 612, 618
         }

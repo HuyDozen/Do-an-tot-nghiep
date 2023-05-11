@@ -1,6 +1,7 @@
 ﻿using Ecommerce.Website.Application.Contacts;
 using Ecommerce.Website.Database.Contacts;
 using Ecommerce.Website.Database.Models;
+using Ecommerce.Website.Database.Models.ResponseModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,11 @@ namespace Ecommerce.Website.Application.Services
         public OrderService(IOrderRepository orderRepository) : base(orderRepository)
         {
             _orderRepository = orderRepository;
+        }
+
+        public ListOrderDetailModel InsertOrder(OrderDetailModel detail)
+        {
+            return _orderRepository.InsertOrder(detail);
         }
     }
 }

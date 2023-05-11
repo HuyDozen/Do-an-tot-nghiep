@@ -1,6 +1,7 @@
 ﻿using Ecommerce.Website.Application.Contacts;
 using Ecommerce.Website.Database.Contacts;
 using Ecommerce.Website.Database.Models;
+using Ecommerce.Website.Database.Models.ResponseModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,11 @@ namespace Ecommerce.Website.Application.Services
         public CategoryService(ICategoryRepository categoryRepository) : base(categoryRepository)
         {
             _categoryRepository = categoryRepository;
+        }
+
+        public List<ProductByOrderViewModel> GetProductsByCategory()
+        {
+            return _categoryRepository.GetProductsByCategory();
         }
     }
    
